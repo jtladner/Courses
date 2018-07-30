@@ -3,6 +3,9 @@
 - This repository contains course materials organized by semester taught. 
 
 
+
+
+
 Copyright (C) 2017  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
