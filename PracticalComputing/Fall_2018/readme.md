@@ -8,10 +8,10 @@ As datasets continue to increase in complexity, computational analysis is becomi
 ### Learning Objectives
 1. Students will become comfortable using computer science tools and programming techniques to enhance/improve data manipulation and analysis
 2. Students will be able to perform the following tasks:
-- Edit/modify text files using regular expressions
-- Interact with a computer via a command line interface
-- Write custom Python analysis scripts
-- Generate figures using Python
+    - Edit/modify text files using regular expressions
+    - Interact with a computer via a command line interface
+    - Write custom Python analysis scripts
+    - Generate figures using Python
 
 ### Required Text
 Haddock, S. H. D. and Dunn, C. W. (2010). Practical Computing for Biologists. [Sinauer Associates](http://practicalcomputing.org)
