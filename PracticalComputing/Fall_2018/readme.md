@@ -1,6 +1,6 @@
 # Practical Computing for Biologists
 - A graduate seminar taught by Jason Ladner at Northern Arizona University, Fall semester 2018. 
-- This repository contains all course materials. 
+- This is the primary repository for course materials, and will be updated regularly. 
 
 ### Course Description
 As datasets continue to increase in complexity, computational analysis is becoming a routine part of scientific research. This is a hands-on training course that shows you how to use general computing tools to work more efficiently and effectively in the biological sciences. This course will cover a broad range of powerful and flexible tools including text file manipulation with regular expressions, interacting with a command line interface, basic shell scripting, programming in Python and R, interaction with remote devices, and basic graphical concepts.
@@ -16,8 +16,17 @@ As datasets continue to increase in complexity, computational analysis is becomi
 ### Required Text
 Haddock, S. H. D. and Dunn, C. W. (2010). Practical Computing for Biologists. [Sinauer Associates](http://practicalcomputing.org)
 
+### Grading
+This seminar is pass/fail. There will not be graded assingments. However, **attendence and participation are required.**
 
+### Useful Links
+[Appendices](http://practicalcomputing.org/files/PCfB_Appendices.pdf) from the Practical Computing for Biologists book, which summarize frequently used commands. 
 
+### Schedule
+ 
+
+### Inspiration
+[Dan Barshis' Practical Computing Course](https://bitbucket.org/dbarshis/17sp_pcfb)
 
 
 
