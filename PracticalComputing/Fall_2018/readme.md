@@ -14,7 +14,7 @@ As datasets continue to increase in complexity, computational analysis is becomi
 - Generate figures using Python
 
 ### Required Text
-Haddock, S. H. D. and Dunn, C. W. (2010). Practical Computing for Biologists. [Sinauer Associates] (http://practicalcomputing.org).
+Haddock, S. H. D. and Dunn, C. W. (2010). Practical Computing for Biologists. [Sinauer Associates](http://practicalcomputing.org)
 
 
 
