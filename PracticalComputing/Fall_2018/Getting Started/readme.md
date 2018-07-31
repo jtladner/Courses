@@ -28,6 +28,7 @@
     which git
     ```
     If git is installed, this command will return the location of the git executable. If you get an error, follow the instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install git.
+    
     2. Make a directory to to hold your get repositories and change into this directory. For example:
     ```
     mkdir ~/GitHub
