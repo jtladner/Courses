@@ -34,12 +34,13 @@
     mkdir ~/GitHub
     cd ~/GitHub
     ```
-    This clones the repository and all of the files contained within, as well as the git history of the repository.
     
     3.  Clone the repository from github
     ```
     git clone https://github.com/jtladner/Courses.git
     ```
+    
+    This clones the repository and all of the files contained within, as well as the git history of the repository.
     
     4. To get updates from the repository, change into the repository root directory and execute the git command 'pull':
     
