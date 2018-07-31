@@ -23,7 +23,30 @@
     5. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "Courses" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull Origin" (upper right).
 
 - If you are a Linux user, you will need to clone the repository from the command line:
-    **Coming Soon!**
+    1. Open a terminal window and check that you have git installed by running the command:
+    ```
+    which git
+    ```
+If git is installed, this command will return the location of the git executable. If you get an error, follow the instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install git.
+    2. Make a directory to to hold your get repositories and change into this directory. For example:
+    ```
+    mkdir ~/GitHub
+    cd ~/GitHub
+    ```
+    
+    3.  Clone the repository from github
+    ```
+    git clone https://github.com/jtladner/Courses.git
+    ```
+    
+    4. To get updates from the repository, change into the repository root directory and execute the git command pull:
+    
+    ```
+    cd Courses
+    git pull
+    ```
+    
+This clones the repository and all of the files contained within, as well as the git history of the repository.
 
 ## 3. Download a powerful plain text editor
 - For this course, you will need a plain text editor with support for regular expressions. There are several different options for different operating systems, but I make some recommendations below (all are free to download)
@@ -35,10 +58,10 @@
 - Mac and Linux users do not need to do anything. There is a terminal application built into these operating systems, which provides a command-line interface. 
 - For Windows users, there are a few different options:
     1. For Windows 10 users, follow these [instructions](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) to install the bash terminal
-    2. For other Windows operating systems, you have two options:
+    2. For other Windows operating systems, you have two options. Appendix 1 in the PCfB book walks through these options in more detail (though the instructions may be somewhat outdated):
         1. Install [Cygwin](http://www.cygwin.com/)
         2. Install Linux (e.g., [Ubuntu](https://www.ubuntu.com/) or [CentOS](https://www.centos.org/)) within a virtual machine (e.g., [VirtualBox](https://www.virtualbox.org/))
-    Appendix 1 in the PCfB book walks through these options, though the instructions may be somewhat outdated. 
+     
 
 Copyright (C) 2017  Jason Ladner
 
