@@ -22,8 +22,23 @@
     4. Click on the green "Clone or download" box on the right side of the screen and then choose "Open in Desktop". This should should create a directory called Courses within your general GitHub directory.
     5. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "Courses" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull Origin" (upper right).
 
-    - If you are a Linux user:
+- If you are a Linux user:
     **Coming Soon!**
+
+## 3. Download a powerful plain text editor
+- For this course, you will need a plain text editor with support for regular expressions. There are several different options for different operating systems, but I make some recommendations below (all are free to download)
+- For Mac I suggest the **free version** of [BBEdit](https://www.barebones.com/products/bbedit/). This free version is roughly equivalent to TextWrangler, which is used in the PCfB book. If you are downloading the program for the first time, they will provide you a trial version of the full BBEdit, but you can continue to use the editor with a limited set of functions after this period. This "limited" set of functions will likely still be sufficient for the majority of your uses.
+- For Windows, I suggest [Notepad++](https://notepad-plus-plus.org/)
+- For Linux, there are many options, but I have had good experience with [Komodo Edit](https://www.activestate.com/komodo-edit)
+
+## 4. Ensure that you have access to a command-line interface
+- Mac and Linux users do not need to do anything. There is a terminal application built into these operating systems, which provides a command-line interface. 
+- For Windows users, there are a few different options:
+    1. For Windows 10 users, follow these [instructions](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) to install the bash terminal
+    2. For other Windows operating systems, you have two options:
+        1. Install [Cygwin](http://www.cygwin.com/)
+        2. Install Linux (e.g., [Ubuntu](https://www.ubuntu.com/) or [CentOS](https://www.centos.org/)) within a virtual machine (e.g., [VirtualBox](https://www.virtualbox.org/))
+
 
 Copyright (C) 2017  Jason Ladner
 
