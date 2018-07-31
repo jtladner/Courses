@@ -15,12 +15,12 @@
 - The easiest way to access files for the class will be to clone a copy of the course repository onto your laptop. To do this, please follow these steps:
     1. If you don't already have one, sign up for a **free** GitHub account [here](https://github.com/)
 
-If you are a Mac or Windows user:
-        2. Download and install the [GitHub Desktop client](https://desktop.github.com/). This will include signing into your GitHub account and choosing a directory on your personal computer to locally store copies of the repositories that you will clone. You may want to continue to use GitHub after the class, so I would recommend that you choose an agnostic location on your computer. For example, within your Home or Documents directory. 
-        3. Sign into your GitHub account within your internet browser
-        4. Open the [Courses repository](https://github.com/jtladner/Courses) within your browser.
-        5. Click on the green "Clone or download" box on the right side of the screen and then choose "Open in Desktop". This should should create a directory called Courses within your general GitHub directory.
-        6. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "Courses" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull Origin" (upper right).
+- If you are a Mac or Windows user
+    2. Download and install the [GitHub Desktop client](https://desktop.github.com/). This will include signing into your GitHub account and choosing a directory on your personal computer to locally store copies of the repositories that you will clone. You may want to continue to use GitHub after the class, so I would recommend that you choose an agnostic location on your computer. For example, within your Home or Documents directory. 
+    3. Sign into your GitHub account within your internet browser
+    4. Open the [Courses repository](https://github.com/jtladner/Courses) within your browser.
+    5. Click on the green "Clone or download" box on the right side of the screen and then choose "Open in Desktop". This should should create a directory called Courses within your general GitHub directory.
+    6. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "Courses" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull Origin" (upper right).
 
     - If you are a Linux user:
     **Coming Soon!**
