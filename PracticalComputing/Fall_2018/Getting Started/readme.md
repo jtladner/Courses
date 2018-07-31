@@ -11,7 +11,7 @@
 
 ## 2. GitHub
 - GitHub is a web-based hosting service used primarily for open-source software development, but which can also be used to host additional content
-- All of the materials for this class, including exercise instructions and files will be hosted on Github.
+- All of the materials for this class, including exercise instructions and files will be hosted on GitHub.
 - The easiest way to access files for the class will be to clone a copy of the course repository onto your laptop. To do this, please follow these steps:
     1. If you don't already have one, sign up for a **free** GitHub account [here](https://github.com/)
 
@@ -29,7 +29,7 @@
     ```
     If git is installed, this command will return the location of the git executable. If you get an error, follow the instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install git.
     
-    2. Make a directory to to hold your git repositories and change into this directory. For example:
+    2. Make a directory to hold your git repositories and change into this directory. For example:
     ```
     mkdir ~/GitHub
     cd ~/GitHub
@@ -54,7 +54,7 @@
 - For this course, you will need a plain text editor with support for regular expressions. There are several different options for different operating systems, but I make some recommendations below (all are free to download)
 - For Mac I suggest the **free version** of [BBEdit](https://www.barebones.com/products/bbedit/). This free version is roughly equivalent to TextWrangler, which is used in the PCfB book. If you are downloading the program for the first time, they will provide you a trial version of the full BBEdit, but you can continue to use the editor with a limited set of functions after this period. This "limited" set of functions will likely still be sufficient for the majority of your uses.
 - For Windows, I suggest [Notepad++](https://notepad-plus-plus.org/)
-- For Linux, there are many options, but I have had good experience with [Komodo Edit](https://www.activestate.com/komodo-edit)
+- For Linux, there are many options, but I have had a good experience with [Komodo Edit](https://www.activestate.com/komodo-edit)
 
 ## 4. Ensure that you have access to a command-line interface
 - Mac and Linux users do not need to do anything. There is a terminal application built into these operating systems, which provides a command-line interface. 
