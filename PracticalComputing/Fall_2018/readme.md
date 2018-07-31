@@ -31,18 +31,18 @@ Week | Date | Topic | Required reading: PCfB Chapter #
 1 | 8/31 | Intro, setup & regular expressions | 1-3
 2 | 9/7 | The Shell - Part 1 | 4-5
 3 | 9/14 | The Shell - Part 2 | 6
-4 | 9/21 | Python Programming - Part 1 | 7-8
+4 | 9/21 | Python Programming - Part 1 | 7-8, [Jupyter Notebook](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook)
 5 | 9/28 | Python Programming - Part 2 | 9-10
 6 | 10/5 | Python Programming - Part 3 | 11-12
 7 | 10/12 | Debugging, Combining methods | 13, 16
 8 | 10/19 | Graphical concepts: vectors vs. pixels | 17-19, 
-9 | 10/26 | Making figures in python | [Jupyter Notebook](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook)
-10 | 11/2 | Relational Databases, Working on Remote Computers | 15, 20
-11 | 11/9 | Group 1 Plan of attack/workday (Wiki comments due 11:59pm Tues) | 
-12 | 11/16 | Group 1 workday/wrap-up, Group 2 intro to task | 
+9 | 10/26 | Making figures in python | [Matplotlib](https://towardsdatascience.com/data-science-with-python-intro-to-data-visualization-and-matplotlib-5f799b7c6d82)
+10 | 11/2 | Working on Remote Computers, Hackathon #1 intro/plan of attack| 15, 20
+11 | 11/9 | Hackathon #1 workday| 
+12 | 11/16 | Hackathon #1 workday/wrap up, Hackathon #2 intro/plan of attack | 
 13 | 11/23 | No Class. Thanksgiving break.  | 
-14 | 11/30 | Group 2 workday/wrap-up, Group 3 intro to task | 
-15 | 12/7 | Group 3 Plan of attack/workday | 
+14 | 11/30 | Hackathon #2 workday | 
+15 | 12/7 | Hackathon #2 workday/wrap up, Open discussion/Q&A | 
 
 ### Inspiration
 [Dan Barshis' Practical Computing Course](https://bitbucket.org/dbarshis/17sp_pcfb)
