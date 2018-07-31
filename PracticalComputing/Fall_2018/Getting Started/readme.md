@@ -22,7 +22,7 @@
     4. Click on the green "Clone or download" box on the right side of the screen and then choose "Open in Desktop". This should should create a directory called Courses within your general GitHub directory.
     5. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "Courses" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull Origin" (upper right).
 
-- If you are a Linux user:
+- If you are a Linux user, you will need to clone the repository from the command line:
     **Coming Soon!**
 
 ## 3. Download a powerful plain text editor
@@ -38,7 +38,7 @@
     2. For other Windows operating systems, you have two options:
         1. Install [Cygwin](http://www.cygwin.com/)
         2. Install Linux (e.g., [Ubuntu](https://www.ubuntu.com/) or [CentOS](https://www.centos.org/)) within a virtual machine (e.g., [VirtualBox](https://www.virtualbox.org/))
-
+    Appendix 1 in the PCfB book walks through these options, though the instructions may be somewhat outdated. 
 
 Copyright (C) 2017  Jason Ladner
 

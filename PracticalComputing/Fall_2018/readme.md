@@ -26,6 +26,8 @@ Practical Computing for Biologists book [homepage](http://practicalcomputing.org
 
 [Appendices](http://practicalcomputing.org/files/PCfB_Appendices.pdf) from the Practical Computing for Biologists book, which summarize frequently used commands. 
 
+[Online Unix Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+
 ### Schedule
 
 Week | Date | Topic | Required reading (#s = PCfB Chapters) | Optional Reading
