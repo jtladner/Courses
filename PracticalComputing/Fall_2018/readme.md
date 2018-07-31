@@ -22,21 +22,23 @@ Assigned reading **must** be completed prior to each class. This will allow us t
 This seminar is pass/fail. There will not be graded assingments. However, **attendence and participation are required.**
 
 ### Useful Links
+Practical Computing for Biologists book [homepage](http://practicalcomputing.org/)
+
 [Appendices](http://practicalcomputing.org/files/PCfB_Appendices.pdf) from the Practical Computing for Biologists book, which summarize frequently used commands. 
 
 ### Schedule
 
-Week | Date | Topic | Required reading: PCfB Chapter #
------|------|-------|---------------------------------
-1 | 8/31 | Intro, setup & regular expressions | 1-3
-2 | 9/7 | The Shell - Part 1 | 4-5
-3 | 9/14 | The Shell - Part 2 | 6
-4 | 9/21 | Python Programming - Part 1 | 7-8, [Jupyter Notebook](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook)
-5 | 9/28 | Python Programming - Part 2 | 9-10
-6 | 10/5 | Python Programming - Part 3 | 11-12
-7 | 10/12 | Debugging, Combining methods | 13, 16
-8 | 10/19 | Graphical concepts: vectors vs. pixels | 17-19, 
-9 | 10/26 | Making figures in python | [Matplotlib](https://towardsdatascience.com/data-science-with-python-intro-to-data-visualization-and-matplotlib-5f799b7c6d82)
+Week | Date | Topic | Required reading (#s = PCfB Chapters) | Optional Reading
+-----|------|-------|---------------------------------|---------
+1 | 8/31 | Intro, setup & regular expressions | 1-3 |
+2 | 9/7 | The Shell - Part 1 | 4-5 |
+3 | 9/14 | The Shell - Part 2 | 6 |
+4 | 9/21 | Python Programming - Part 1 | 7-8, [Jupyter Notebook Tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) |
+5 | 9/28 | Python Programming - Part 2 | 9-10 |
+6 | 10/5 | Python Programming - Part 3 | 11-12 |
+7 | 10/12 | Debugging, Combining methods | 13, 16 |
+8 | 10/19 | Graphical concepts: vectors vs. pixels | 17-19 |
+9 | 10/26 | Making figures in python | [Matplotlib Overview](https://towardsdatascience.com/data-science-with-python-intro-to-data-visualization-and-matplotlib-5f799b7c6d82) | 
 10 | 11/2 | Working on Remote Computers, Hackathon #1 intro/plan of attack| 15, 20
 11 | 11/9 | Hackathon #1 workday| 
 12 | 11/16 | Hackathon #1 workday/wrap up, Hackathon #2 intro/plan of attack | 
@@ -47,7 +49,7 @@ Week | Date | Topic | Required reading: PCfB Chapter #
 ### Inspiration
 [Dan Barshis' Practical Computing Course](https://bitbucket.org/dbarshis/17sp_pcfb)
 
-
+[Gytis Dudas' Github](https://github.com/evogytis)
 
 Copyright (C) 2017  Jason Ladner
 
