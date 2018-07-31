@@ -29,25 +29,25 @@
     ```
     If git is installed, this command will return the location of the git executable. If you get an error, follow the instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install git.
     
-    2. Make a directory to to hold your get repositories and change into this directory. For example:
+    2. Make a directory to to hold your git repositories and change into this directory. For example:
     ```
     mkdir ~/GitHub
     cd ~/GitHub
     ```
+    This clones the repository and all of the files contained within, as well as the git history of the repository.
     
     3.  Clone the repository from github
     ```
     git clone https://github.com/jtladner/Courses.git
     ```
     
-    4. To get updates from the repository, change into the repository root directory and execute the git command pull:
+    4. To get updates from the repository, change into the repository root directory and execute the git command 'pull':
     
     ```
     cd Courses
     git pull
     ```
     
-This clones the repository and all of the files contained within, as well as the git history of the repository.
 
 ## 3. Download a powerful plain text editor
 - For this course, you will need a plain text editor with support for regular expressions. There are several different options for different operating systems, but I make some recommendations below (all are free to download)
