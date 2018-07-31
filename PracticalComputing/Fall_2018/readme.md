@@ -1,6 +1,15 @@
-# Practical Computing for Biologists
-- A graduate seminar taught by Jason Ladner at Northern Arizona University, Fall semester 2018. 
+# Practical Computing for Biologists (BIO 698-022) Syllabus, Fall 2018
 - This is the primary repository for course materials, and will be updated regularly. 
+
+### Class time/location
+Friday 9:30 - 11:30, BIO room 238
+
+### Instructor
+Dr. Jason Ladner
+    - Office: ARD 313
+    - Phone: 928-523-0647
+    - Email: jason.ladner@nau.edu
+    - Office hours by appointment
 
 ### Course Description
 As datasets continue to increase in complexity, computational analysis is becoming a routine part of scientific research. This is a hands-on training course that shows you how to use general computing tools to work more efficiently and effectively in the biological sciences. This course will cover a broad range of powerful and flexible tools including text file manipulation with regular expressions, interacting with a command line interface, basic shell scripting, programming in Python and R, interaction with remote devices, and basic graphical concepts.
