@@ -32,6 +32,8 @@ Practical Computing for Biologists, Chapters 1-3
 
 ## Extra fun
 
+Explore for "extra credit" or in the event that you finish all of the other exercises.
+
 [Regex Crossword](https://regexcrossword.com/)
 
 Copyright (C) 2017  Jason Ladner
