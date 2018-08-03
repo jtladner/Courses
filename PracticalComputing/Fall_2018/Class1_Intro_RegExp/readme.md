@@ -15,7 +15,8 @@ Practical Computing for Biologists, Chapters 1-3
 2. We will now start using the text editor on your computer to use regular expressions to edit text files. 
     1. Open "EBOV.phy" in your text editor.
     2. Use a series of search/replace queries to covert this phylip formatted sequence alignment into a fasta formatted file. Two commands should be sufficient. Fasta format:
-     ```>name1
+     ```
+     >name1
      seq 1
      >name2
      seq2
