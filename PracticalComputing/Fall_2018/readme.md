@@ -41,7 +41,7 @@ Practical Computing for Biologists book [homepage](http://practicalcomputing.org
 
 Week | Date | Topic | Required reading (#s = PCfB Chapters) | Optional Reading
 -----|------|-------|---------------------------------|---------
-1 | 8/31 | Intro, setup & regular expressions | 1-3 |
+[1](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class1_Intro_RegExp) | 8/31 | Intro, setup & regular expressions | 1-3 |
 2 | 9/7 | The Shell - Part 1 | 4-5 |
 3 | 9/14 | The Shell - Part 2 | 6 |
 4 | 9/21 | Python Programming - Part 1 | 7-8, [Jupyter Notebook Tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) |
