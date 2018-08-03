@@ -7,7 +7,30 @@
 ### Required Reading (**Must be completed ahead of time**)
 Practical Computing for Biologists, Chapters 1-3
 
+### Exercises
 
+1. Got to [RegexOne](https://regexone.com/) and complete the 15 lesson tutorial. This website provides a nice interactive interface for playing with regular expressions.
+    - Keep track of your solutions to share with the class
+
+2. We will now start using the text editor on your computer to use regular expressions to edit text files. 
+    1. Open "EBOV.phy" in your text editor.
+    2. Use a series of search/replace queries to covert this phylip formatted sequence alignment into a fasta formatted file. Two commands should be sufficient. Fasta format:
+     ```>name1
+     seq 1
+     >name2
+     seq2
+     ```
+
+
+
+3. Open "HastingsBirdList\_2007\_.txt" in your text editor. This file contains tab-delimited information about bird species cited in the Hastings Park Conservancy in Vancouver, BC.
+    1. Design a single search and replace query that utilizes regular expressions to reformat **every** line to the following format:
+    ```Genus\tspecies\tG. species\tCommon Name\tStatus```
+    "Status" is the column with a categorical variable including "Casual", "Rare Visitor", etc. Make sure to remove the "*" character from the beginning of the Status category, if present. 
+
+## Extra fun
+
+[Regex Crossword](https://regexcrossword.com/)
 
 Copyright (C) 2017  Jason Ladner
 
@@ -23,3 +46,6 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
