@@ -17,14 +17,15 @@ Practical Computing for Biologists, Chapters 1-3
     2. Use a series of search/replace queries to covert this phylip formatted sequence alignment into a fasta formatted file. Two commands should be sufficient. Fasta format:
      ```
      >name1
-     seq 1
+     seq1
      >name2
      seq2
      ```
+    
+    3. Edit regular expression to change sequence names. New sequence names should only include the characters prior to the first underscore ('_')
+    4. Edit regular expression to remove all 'N' characters from the beginning and end of each sequence
 
-
-
-3. Open "HastingsBirdList\_2007\_.txt" in your text editor. This file contains tab-delimited information about bird species cited in the Hastings Park Conservancy in Vancouver, BC.
+4. Open "HastingsBirdList\_2007\_.txt" in your text editor. This file contains tab-delimited information about bird species cited in the Hastings Park Conservancy in Vancouver, BC.
     1. Design a single search and replace query that utilizes regular expressions to reformat **every** line to the following format:
     ```Genus\tspecies\tG. species\tCommon Name\tStatus```
     "Status" is the column with a categorical variable including "Casual", "Rare Visitor", etc. Make sure to remove the "*" character from the beginning of the Status category, if present. 
