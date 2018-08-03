@@ -1,4 +1,4 @@
-# Class #1 - Aug. 31st 2018
+# Class 1 - Aug. 31st 2018
 - In this first class we will:
     - Discuss the syllabus and course organization/expectations
     - Troubleshoot computer setup problems
