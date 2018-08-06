@@ -7,6 +7,13 @@
 ### Required Reading (**Must be completed ahead of time**)
 Practical Computing for Biologists, Chapters 1-3
 
+### Prep for next class
+
+1. Open your command line interface and type this command followed by 'Enter':
+```echo $SHELL```
+
+If the reponse is not "/bin/bash", let me know. 
+
 ### Exercises
 
 1. Got to [RegexOne](https://regexone.com/) and complete the 15 lesson tutorial. This website provides a nice interactive interface for playing with regular expressions.
