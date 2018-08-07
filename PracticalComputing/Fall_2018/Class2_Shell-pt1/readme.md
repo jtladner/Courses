@@ -7,7 +7,7 @@ Practical Computing for Biologists, Chapters 4-5
 
 ### Some basic shell configuration
 
-# For Mac users:
+#### For Mac users:
 1. Open your command line interface and confirm that you are in your home directory by typing the command:
 ```pwd```
 
@@ -39,7 +39,7 @@ bind '"\e[B": history-search-forward'
 
 ```source .bash_profile```
 
-# For Linux users:
+#### For Linux users:
 1. Open your command line interface and confirm that you are in your home directory by typing the command:
 ```pwd```
 
