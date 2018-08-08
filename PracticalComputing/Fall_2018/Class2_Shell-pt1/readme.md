@@ -11,10 +11,10 @@ Practical Computing for Biologists, Chapters 4-5
 1. Open your command line interface and confirm that you are in your home directory by typing the command:
 ```pwd```
 
-If the reponse should be similar to the following with 'uname' replaced with your username:
+  The reponse should be similar to the following with 'uname' replaced with your username:
 ```/Users/uname```
 
-If you're not in the right place, or you're not sure, execute the following command:
+  If you're not in the right place, or you're not sure, execute the following command:
 ```cd ~/```
 
 2. If you have installed the bbedit command line tools use the following command to open your .bash_profile in bbedit:
