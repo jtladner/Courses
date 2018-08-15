@@ -39,6 +39,10 @@ bind '"\e[B": history-search-forward'
 
 ```source .bash_profile```
 
+5. In order to install the ```rename``` command, you must first install [homebrew](https://brew.sh/). Then run the following command:
+
+```brew install rename```
+
 #### For Linux users:
 1. Open your command line interface and confirm that you are in your home directory by typing the command:
 ```pwd```
@@ -82,12 +86,44 @@ bind '"\e[B": history-search-forward'
 
 ### Exercises
 
-1. 
+For today's execises, you should work in the shell within the 'scratch' directory, which is located within the GitHub directory for this week's class ('Class2_Shell-pt1'). To get there, use the 'cd' command. For example, on my computer, I would use the following:
 
-2. 
+```cd /Users/jtladner/Documents/GitHub/Courses/PracticalComputing/Fall_2018/Class2_Shell-pt1/sandbox```
 
+Once there type ```ls -1``` and you should see the following list of files:
 
-3. 
+```
+structure_hidden.pdb
+```
+
+1. Use the ```man``` command to learn more about ```head``` and ```tail```. 
+The file 'structure_hidden.pdb' has 9291 lines. You can check this using the command:
+
+```wc -l structure_hidden.pdb```
+
+    1. Rewrite the command above, specifying an absolute path for the 'structure_hidden.pdb' (hint: use ```pwd```)
+
+    2. Now, use a combination of ```head``` and ```tail```, within a single command in order to view **ONLY** lines 4532-4539.
+
+    3. Design a simple ```grep``` command that will generate the same output generated in the previous step
+
+2. Use ```ls``` to look inside 'bunchoffiles'. This directory contains 100 files. All are plain text files, but they have three different file extensions. 
+
+    1. Make a directory named 'halfthefiles' and then, with a single command, move all of the files with a .txt file extension to this new folder. 
+    
+    2. Use ```cat``` to concatenate all of the .txt files (now in 'halfthefiles') into a single file called "all.txt". Generate this file within the main scratch directory.
+    
+    3. Use ```wc -l``` of 'all.txt' and the original .txt files to verify that the concatenation worked properly.
+    
+    4. Delete the 'halfthefiles' directory, including all of the indiviudal .txt files. 
+    
+    5. Use ```ls``` to look at the remaining files in 'bunchoffiles'. Use a combination of ```ls```, ```grep``` and ```wc -l``` to count the number of files with each file extension.
+    
+    6. When the files were generated, a type resulted in many of the files being named with the string 'tres' instead of 'trees'. Use ```rename``` to correct this mistake for all files with a single command.
+
+3. curl, less, >>
+
+4. Use the ```history``` command to generate a text file that includes all of the commands that you used for exercises 1-3.
 
 ## Extra fun
 
