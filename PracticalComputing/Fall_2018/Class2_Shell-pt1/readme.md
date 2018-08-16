@@ -103,7 +103,6 @@ structure_hidden.pdb
 
 1. Use the ```man``` command to learn more about ```head``` and ```tail```. 
 The file 'structure_hidden.pdb' has 9291 lines. You can check this using the command:
-
 ```wc -l structure_hidden.pdb```
 
     1. Rewrite the command above, specifying an absolute path for the 'structure_hidden.pdb' (hint: use ```pwd```)
