@@ -105,7 +105,7 @@ structure_hidden.pdb
 The file 'structure_hidden.pdb' has 9291 lines. You can check this using the command:
 ```wc -l structure_hidden.pdb```
 
-    1. Rewrite the command above, specifying an absolute path for the 'structure_hidden.pdb' (hint: use ```pwd```)
+    1. Rewrite the command above, specifying an absolute path for 'structure_hidden.pdb' (hint: use ```pwd```)
 
     2. Now, use a combination of ```head``` and ```tail```, within a single command in order to view **ONLY** lines 4532-4539.
 
@@ -117,13 +117,13 @@ The file 'structure_hidden.pdb' has 9291 lines. You can check this using the com
     
     2. Use ```cat``` to concatenate all of the .txt files (now in 'halfthefiles') into a single file called "all.txt". Generate this file within the main scratch directory.
     
-    3. Use ```wc -l``` of 'all.txt' and the original .txt files to verify that the concatenation worked properly.
+    3. Count the number of lines in 'all.txt' and the original .txt files to verify that the concatenation worked properly.
     
     4. Delete the 'halfthefiles' directory, including all of the indiviudal .txt files. 
     
     5. Use ```ls``` to look at the remaining files in 'bunchoffiles'. Use a combination of ```ls``` and ```grep``` to count the number of files with each file extension.
     
-    6. When the files were generated, a type resulted in many of the files being named with the string 'tres' instead of 'trees'. Use ```rename``` to correct this mistake for all files with a single command.
+    6. When the files were generated, a typo resulted in many of the files being named with the string 'tres' instead of 'trees'. Use ```rename``` to correct this mistake for all files with a single command.
 
 3. In this exercise, you will use ```curl``` to download several files from the internet and then explore and manipulate those files through the command line.
     
