@@ -8,7 +8,7 @@ Coming soon!
 
 ### Exercises
 
-Coming soon!
+[Maybe](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python?utm_source=adwords_ppc&utm_campaignid=876810440&utm_adgroupid=54946380885&utm_device=c&utm_keyword=&utm_matchtype=&utm_network=d&utm_adpostion=none&utm_creative=277443658543&utm_targetid=aud-463029047231&utm_loc_interest_ms=&utm_loc_physical_ms=9030289&gclid=EAIaIQobChMIvqWK_P_v3AIVygatBh27pgGJEAEYASAAEgKl6PD_BwE)
 
 ## Extra fun
 

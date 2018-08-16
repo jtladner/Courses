@@ -43,6 +43,10 @@ bind '"\e[B": history-search-forward'
 
 ```brew install rename```
 
+6. Check to see if ```curl``` is installed using ```which curl```. If it isn't, install using homebrew:
+
+```brew install curl```
+
 #### For Linux users:
 1. Open your command line interface and confirm that you are in your home directory by typing the command:
 ```pwd```
@@ -90,9 +94,10 @@ For today's execises, you should work in the shell within the 'scratch' director
 
 ```cd /Users/jtladner/Documents/GitHub/Courses/PracticalComputing/Fall_2018/Class2_Shell-pt1/sandbox```
 
-Once there type ```ls -1``` and you should see the following list of files:
+Once there type ```ls -1``` and you should see the following list of files and directories:
 
 ```
+bunchoffiles
 structure_hidden.pdb
 ```
 
@@ -117,11 +122,23 @@ The file 'structure_hidden.pdb' has 9291 lines. You can check this using the com
     
     4. Delete the 'halfthefiles' directory, including all of the indiviudal .txt files. 
     
-    5. Use ```ls``` to look at the remaining files in 'bunchoffiles'. Use a combination of ```ls```, ```grep``` and ```wc -l``` to count the number of files with each file extension.
+    5. Use ```ls``` to look at the remaining files in 'bunchoffiles'. Use a combination of ```ls``` and ```grep``` to count the number of files with each file extension.
     
     6. When the files were generated, a type resulted in many of the files being named with the string 'tres' instead of 'trees'. Use ```rename``` to correct this mistake for all files with a single command.
 
-3. curl, less, >>
+3. In this exercise, you will use ```curl``` to download several files from the internet and then explore and manipulate those files through the command line.
+    
+    1. Use  ```curl``` to download a fasta file with betalactamase sequences from NCBI (ftp://ftp.ncbi.nlm.nih.gov/pathogen/betalactamases/Allele-dna.fa).
+    
+    2. Use ```less``` to take a look at the file contents and familiarize yourself with the fasta file format. 
+    
+    3. Use ```grep``` to count the number of sequences in this file (**NOT the number of lines!**)
+    
+    4. How many of the sequencing names start with 'AA'?
+    
+    5. How many sequence names end with '0'?
+    
+    6. Using ```head```, ```grep``` and some trial and error, generate a new fasta file containing the first 500 sequences. **Make sure you include the entire 500th sequence**
 
 4. Use the ```history``` command to generate a text file that includes all of the commands that you used for exercises 1-3.
 
@@ -129,7 +146,9 @@ The file 'structure_hidden.pdb' has 9291 lines. You can check this using the com
 
 Explore for "extra credit" or in the event that you finish all of the other exercises.
 
-Coming Soon!
+[Cmd Challenge](https://cmdchallenge.com)
+
+
 
 Copyright (C) 2017  Jason Ladner
 
