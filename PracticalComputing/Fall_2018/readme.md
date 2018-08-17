@@ -50,7 +50,7 @@ Week | Date | Topic | Required reading (#s = PCfB Chapters) | Optional Reading
 7 | 10/12 | Debugging, Combining methods | 13-14 |
 8 | 10/19 | Graphical concepts: vectors vs. pixels | 17-19 |
 9 | 10/26 | Making figures in python | [Matplotlib Overview](https://towardsdatascience.com/data-science-with-python-intro-to-data-visualization-and-matplotlib-5f799b7c6d82) | 
-10 | 11/2 | Working on Remote Computers, Hackathon #1 intro/plan of attack| 15, 20
+10 | 11/2 | Manage code with GitHub, Hackathon #1 intro/plan of attack| 
 11 | 11/9 | Hackathon #1 workday| 
 12 | 11/16 | Hackathon #1 workday/wrap up, Hackathon #2 intro/plan of attack | 
 13 | 11/23 | No Class. Thanksgiving break.  | 
