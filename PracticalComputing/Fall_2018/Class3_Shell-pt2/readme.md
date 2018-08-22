@@ -3,21 +3,46 @@
     - 
 
 ### Required Reading (**Must be completed ahead of time**)
-Practical Computing for Biologists, Chapter 6
+Practical Computing for Biologists, Chapter 6, 16
 
 ### Preparation for next class
 
+Python scripts are generally simple text files that are executed on the command line, just like the bash shell scripts we will be generating in today's class. However, there are also GUIs available that allow for python scripts (and those written in other programming languages), to be written and executed without needing the command line. We will use this type of interactive interface for our initial introduction to Python programming next week and again, later in the class, when we learn how to use Python to generate figures. The interactive GUI we will use is called Jupyter Notebook. 
+
 1. Install Jupyter Notebook
+There are multiple ways that you can [install the Jupyter Notebook](http://jupyter.org/install), but I highly recommend installing using the [Anaconda Distribution](https://www.anaconda.com/download/). Anaconda is available for Windows, Linux and MacOS and the Jupyter Notebook is automatically installed as a part of the Anaconda distribution. For compatibility with the PCfB book, please install the Python 2.7 version of Anaconda. 
 
+After Anaconda has been installed, open a terminal window (Mac/Linux) or command prompt (Windows) and run the following command: ```jupyter notebook```
 
+This should automatically open the jupyter notebook within your default browser. 
 
 ### Exercises
 
-Coming soon!
+1. If you haven't done so already, follow the instructions on PCfB p.85-88 to set up your own scripts directory and to add this directory to your system's PATH.
+
+2. Move into "Class3\_Shell-pt2/scratch". Within this directory, you will find a file called "dummy.txt". Write and execute a simple shell script that will:
+    1. Create a new directory within "Class3\_Shell-pt2/scratch" called "dummy_dir"
+    2. Move "dummy.txt" into this new directory
+    3. Rename "dummy.txt" to "done.txt"
+
+Save this script within your "scripts" directory (created in exercise #1), but run the script from within "Class3\_Shell-pt2/scratch".
+
+3. Move into "Class3\_Shell-pt2/scratch/images". This directory contains several pdf files. Using ```ls``` in combination with regular expressions within your text editor, as described in PCfB p.91-96, quickly generate a shell script that will create renamed copies of all of these pdf files within a new sub-directory called "images\_renamed". For the image files that start with "test_", the new names should omit "test\_" from the beginning of the file names and ".txt" from within the file names. For the remaining files, omit all of the name that comes prior to the '-' character.
+
+4. Move into "Class3\_Shell-pt2/scratch/zika\_genomes". This directory contains 88 fasta files, each containing a single Zika virus genome, and each sequence containing line within the fasta files has a maximum length of 70 nucleotides. 
+
+This directory also contains a simple python script - "wrap_fasta.py" - that changes the length of the sequence lines in a fasta file. Here is an example command that will take an input fasta and generate a new version with sequence containing lines up to 20,000 nucleotides long:
+
+```wrap_fasta.py  input.fasta  output.fasta 20000```
+
+Use a for loop to batch process all of these Zika virus genomes, using wrap_fasta.py to create new versions in which each viral genome sequence will be contained on a single line (hint: the Zika virus genome is a little less than 11,000 nucleotides long). Make sure that you do not overwrite the original versions of the fasta sequences (i.e., the output.fasta name must be different from the input.fasta name). 
+
+5. Example using for loops in script??? Maybe in combination with curl
+
 
 ## Extra fun
 
-Coming soon!
+[Terminus game](http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html)
 
 Copyright (C) 2017  Jason Ladner
 
