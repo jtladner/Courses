@@ -44,6 +44,8 @@ Use a for loop to batch process all of these Zika virus genomes, using wrap_fast
 
 [Terminus game](http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html)
 
+[Command-line Murder Mystery](https://github.com/veltman/clmystery/)
+
 Copyright (C) 2017  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
