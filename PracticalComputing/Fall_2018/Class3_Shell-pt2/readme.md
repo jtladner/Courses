@@ -27,7 +27,7 @@ This should automatically open the jupyter notebook within your default browser.
 
 Save this script within your "scripts" directory (created in exercise #1), but run the script from within "Class3\_Shell-pt2/scratch".
 
-3. Move into "Class3\_Shell-pt2/scratch/images". This directory contains several pdf files. Using ```ls``` in combination with regular expressions within your text editor, as described in PCfB p.91-96, quickly generate a shell script that will create renamed copies of all of these pdf files within a new sub-directory called "images\_renamed". For the image files that start with "test_", the new names should omit "test\_" from the beginning of the file names and ".txt" from within the file names. For the remaining files, omit all of the name that comes prior to the '-' character.
+3. Move into "Class3\_Shell-pt2/scratch/images". This directory contains several pdf files. Using ```ls``` in combination with regular expressions within your text editor, as described in PCfB p.91-96, generate a shell script that will create renamed copies of all of these pdf files within a new sub-directory called "images\_renamed". For the image files that start with "test_", the new names should omit "test\_" from the beginning of the file names and ".txt" from within the file names. For the remaining files, omit all of the name that comes prior to the '-' character.
 
 4. Move into "Class3\_Shell-pt2/scratch/zika\_genomes". This directory contains 88 fasta files, each containing a single Zika virus genome, and each sequence containing line within the fasta files has a maximum length of 70 nucleotides. 
 
@@ -39,9 +39,13 @@ i. Copy this python script into your 'scripts' directory and make it executable.
 
 ii. Use a for loop to batch process all of these Zika virus genomes, using wrap_fasta.py to create new versions in which each viral genome sequence will be contained on a single line (hint: the Zika virus genome is a little less than 11,000 nucleotides long). Make sure that you do not overwrite the original versions of the fasta sequences (i.e., the output.fasta name must be different from the input.fasta name). 
 
-5. Write a shell function called 'whiched' that will use ```which``` to obtain the full path of a script/program in your $PATH and then automatically open that file in your text editor of choice. This can be a command line editor, like ```nano```, or a GUI editor that can be invoked from the command line, like ```bbedit```. Test this function using the "dummy.txt" script from exercise #1. 
+5. Write a shell function called 'whiched' that will use ```which``` to obtain the full path of a script/program in your $PATH and then automatically open that file in your text editor of choice. This can be a command line editor, like ```nano```, or a GUI editor that can be invoked from the command line, like ```bbedit```. Test this function using the "dummy.txt" script from exercise #2. 
 
-6. Example using for loops in script??? Maybe in combination with curl
+6. Write your own custom shell script that includes the following elements:
+    1. A custom function that is both defined and utilized within the script
+    2. At least one for loop
+    
+    The script can do anything you want, but you are encouraged to think about tasks that would be useful for your research. 
 
 
 ## Extra fun
