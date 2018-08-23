@@ -20,7 +20,7 @@
     2. Sign into your GitHub account within your internet browser
     3. Open the [Courses repository](https://github.com/jtladner/Courses) within your browser.
     4. Click on the green "Clone or download" box on the right side of the screen and then choose "Open in Desktop". This should should create a directory called Courses within your general GitHub directory.
-    5. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "Courses" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull Origin" (upper right).
+    5. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "Courses" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull origin" (upper right). If there are no updates available you will not see a "Pull origin" option. Instead you will see "Fetch origin", which will look for differences between your local copy and the online repository. 
 
 - If you are a Linux user, you will need to clone the repository from the command line:
     1. Open a terminal window and check that you have git installed by running the command:
