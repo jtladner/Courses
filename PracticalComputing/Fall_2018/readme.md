@@ -43,7 +43,7 @@ Week | Date | Topic | Required reading (#s = PCfB Chapters) | Optional Reading
 -----|------|-------|---------------------------------|---------
 [1](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class1_Intro_RegExp) | 8/31 | Intro, setup & regular expressions | 1-3 |
 2 | 9/7 | The Shell - Part 1 | 4-5 |
-3 | 9/14 | The Shell - Part 2 | 6, 16 |
+3 | 9/14 | The Shell - Part 2 | 6, 16 (p.309-316) |
 4 | 9/21 | Python Programming - Part 1 | 7-8, [Jupyter Notebook Tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) |
 5 | 9/28 | Python Programming - Part 2 | 9-10 |
 6 | 10/5 | Python Programming - Part 3 | 11-12 |
