@@ -27,8 +27,11 @@ Haddock, S. H. D. and Dunn, C. W. (2010). Practical Computing for Biologists. [S
 
 Assigned reading **must** be completed prior to each class. This will allow us to minimize time spent in lectures and maximize hands-on time actively using the new tools being taught. 
 
-### Grading
+### Grading System
 This seminar is pass/fail. There will not be graded assingments. However, **attendence and participation are required.**
+
+### Class Policies
+If you are unable to attend a class, you are expected to complete the assigned exercises on your own prior to the next class and to make at least one post in the Google Group for this course. Please contact me if you anticipate missing more than two classes. 
 
 ### Useful Links
 Practical Computing for Biologists book [homepage](http://practicalcomputing.org/)
@@ -56,6 +59,9 @@ Week | Date | Topic | Required reading (#s = PCfB Chapters) | Optional Reading
 13 | 11/23 | No Class. Thanksgiving break.  | 
 14 | 11/30 | Hackathon #2 workday | 
 15 | 12/7 | Hackathon #2 workday/wrap up, Open discussion/Q&A | 
+
+### University Policies
+[https://nau.edu/Curriculum-and-Assessment/_Forms/Curricular-Policy/Syllabus_Policy_Statements(2)/ ](.  https://nau.edu/Curriculum-and-Assessment/_Forms/Curricular-Policy/Syllabus_Policy_Statements(2)/ )
 
 ### Inspiration
 [Dan Barshis' Practical Computing Course](https://bitbucket.org/dbarshis/17sp_pcfb)

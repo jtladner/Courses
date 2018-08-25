@@ -16,7 +16,7 @@ If the reponse is not "/bin/bash", let me know.
 
 ### Exercises
 
-1. Got to [RegexOne](https://regexone.com/) and complete the 15 lesson tutorial. This website provides a nice interactive interface for playing with regular expressions.
+1. Go to [RegexOne](https://regexone.com/) and complete the 15 lesson tutorial. This website provides a nice interactive interface for playing with regular expressions.
     - Keep track of your solutions to share with the class
 
 2. We will now start using the text editor on your computer to use regular expressions to edit text files. 
