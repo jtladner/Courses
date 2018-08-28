@@ -12,7 +12,7 @@ Python scripts are generally simple text files that are executed on the command 
 1. Install Jupyter Notebook
 There are multiple ways that you can [install the Jupyter Notebook](http://jupyter.org/install), but I highly recommend installing using the [Anaconda Distribution](https://www.anaconda.com/download/). Anaconda is available for Windows, Linux and MacOS and the Jupyter Notebook is automatically installed as a part of the Anaconda distribution. For compatibility with the PCfB book, please install the Python 2.7 version of Anaconda. 
 
-After Anaconda has been installed, open a terminal window (Mac/Linux) or command prompt (Windows) and run the following command: ```jupyter notebook```
+After Anaconda has been installed, open a terminal window (Mac/Linux) or the "Anaconda Prompt" (Windows) and run the following command: ```jupyter notebook```
 
 This should automatically open the jupyter notebook within your default browser. 
 
