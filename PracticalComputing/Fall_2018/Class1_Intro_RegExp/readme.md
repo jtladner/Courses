@@ -30,7 +30,7 @@ If the reponse is not "/bin/bash", let me know.
      ```
     
     3. Edit your regular expression to change sequence names. New names should only include the characters prior to the first underscore ('_')
-    4. Edit regular expression to remove all 'N' characters from the beginning and end of each sequence
+    4. Edit your regular expression to remove all 'N' characters from the beginning and end of each sequence
 
 3. Open "HastingsBirdList\_2007\_.txt" in your text editor. This file contains tab-delimited information about bird species cited in the Hastings Park Conservancy in Vancouver, BC.
     1. Design a single search and replace query that utilizes regular expressions to reformat **every** line to the following format:
