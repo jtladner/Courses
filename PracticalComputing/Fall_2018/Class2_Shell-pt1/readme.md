@@ -47,7 +47,7 @@ bind '"\e[B": history-search-forward'
 
 ```brew install curl```
 
-#### For Linux users:
+#### For Linux users (including Windows users running a Linux terminal):
 1. Open your command line interface and confirm that you are in your home directory by typing the command:
 ```pwd```
 
