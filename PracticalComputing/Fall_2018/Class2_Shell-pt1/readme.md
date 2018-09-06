@@ -120,7 +120,6 @@ Once there type ```ls -1``` and you should see the following list of files and d
 
 ```
 bunchoffiles
-PCfB_class2_Fall2018_Slides.pdf
 structure_hidden.pdb
 ```
 
