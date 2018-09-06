@@ -39,11 +39,22 @@ bind '"\e[B": history-search-forward'
 
 ```source .bash_profile```
 
-5. In order to install the ```rename``` command, you must first install [homebrew](https://brew.sh/). Then run the following command:
+5. To test that noclobber is working as expetced, run the following two commands in succession:
+
+```touch test.txt
+cat test.txt >test.txt```
+
+You should receive the following message: 
+
+```-bash: test.txt: cannot overwrite existing file```
+
+6. To test the incremental search capabilities, type the letter 's' and hit the up arrow. This should bring up the 'source' command you entered in step 4, as opposed to the last 'cat' command. 
+
+7. In order to install the ```rename``` command, you must first install [homebrew](https://brew.sh/). Then run the following command:
 
 ```brew install rename```
 
-6. Check to see if ```curl``` is installed using ```which curl```. If it isn't, install using homebrew:
+8. Check to see if ```curl``` is installed using ```which curl```. If it isn't, install using homebrew:
 
 ```brew install curl```
 
@@ -87,6 +98,17 @@ bind '"\e[B": history-search-forward'
 
 ```source .bashrc```
 
+7. To test that noclobber is working as expetced, run the following two commands in succession:
+
+```touch test.txt
+cat test.txt >test.txt```
+
+You should receive the following message: 
+
+```-bash: test.txt: cannot overwrite existing file```
+
+8. To test the incremental search capabilities, type the letter 's' and hit the up arrow. This should bring up the 'source' command you entered in step 4, as opposed to the last 'cat' command. 
+
 
 ### Exercises
 
@@ -102,12 +124,12 @@ structure_hidden.pdb
 ```
 
 1. Use the ```man``` command to learn more about ```head``` and ```tail```. 
-The file 'structure_hidden.pdb' has 9291 lines. You can check this using the command:
-```wc -l structure_hidden.pdb```
+The file 'structure\_hidden.pdb' has 9291 lines. You can check this using the command:
+```wc -l structure\_hidden.pdb```
 
     1. Rewrite the command above, specifying an absolute path for 'structure_hidden.pdb' (hint: use ```pwd```)
 
-    2. Now, use a combination of ```head``` and ```tail```, within a single command in order to view **ONLY** lines 4532-4539.
+    2. Now, use a combination of ```head``` and ```tail```, within a single command in order to view **ONLY** lines 4532-4539 of 'structure_hidden.pdb'.
 
     3. Design a simple ```grep``` command that will generate the same output generated in the previous step
 
@@ -133,7 +155,7 @@ The file 'structure_hidden.pdb' has 9291 lines. You can check this using the com
     
     3. Use ```grep``` to count the number of sequences in this file (**NOT the number of lines!**)
     
-    4. How many of the sequencing names start with 'AA'?
+    4. How many of the sequence names start with 'AA'?
     
     5. How many sequence names end with '0'?
     
