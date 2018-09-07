@@ -116,7 +116,7 @@ You should receive the following message:
 
 ### Exercises
 
-For today's execises, you should work in the shell within the 'scratch' directory, which is located within the GitHub directory for this week's class ('Class2_Shell-pt1'). To get there, use the 'cd' command. For example, on my computer, I would use the following:
+For today's execises, you should work in the shell within the 'sandbox' directory, which is located within the GitHub directory for this week's class ('Class2_Shell-pt1'). To get there, use the 'cd' command. For example, on my computer, I would use the following:
 
 ```cd /Users/jtladner/Documents/GitHub/Courses/PracticalComputing/Fall_2018/Class2_Shell-pt1/sandbox```
 
@@ -141,7 +141,7 @@ The file 'structure\_hidden.pdb' has 9291 lines. You can check this using the co
 
     1. Make a directory named 'halfthefiles' and then, with a single command, move all of the files with a .txt file extension to this new folder. 
     
-    2. Use ```cat``` to concatenate all of the .txt files (now in 'halfthefiles') into a single file called "all.txt". Generate this file within the main scratch directory.
+    2. Use ```cat``` to concatenate all of the .txt files (now in 'halfthefiles') into a single file called "all.txt". Generate this file within the main sandbox directory.
     
     3. Count the number of lines in 'all.txt' and the original .txt files to verify that the concatenation worked properly.
     
