@@ -102,8 +102,10 @@ bind '"\e[B": history-search-forward'
 
 7. To test that noclobber is working as expetced, run the following two commands in succession:
 
-```touch test.txt
-cat test.txt >test.txt```
+```
+touch test.txt
+cat test.txt >test.txt
+```
 
 You should receive the following message: 
 
