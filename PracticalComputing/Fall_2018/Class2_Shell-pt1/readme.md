@@ -151,7 +151,7 @@ The file 'structure\_hidden.pdb' has 9291 lines. You can check this using the co
     
     6. When the files were generated, a typo resulted in many of the files being named with the string 'tres' instead of 'trees'. Use ```rename``` to correct this mistake for all files with a single command.
 
-3. In this exercise, you will use ```curl``` to download several files from the internet and then explore and manipulate those files through the command line.
+3. In this exercise, you will use ```curl``` to download a file from the internet and then explore and manipulate those files through the command line.
     
     1. Use  ```curl``` to download a fasta file with betalactamase sequences from NCBI (ftp://ftp.ncbi.nlm.nih.gov/pathogen/betalactamases/Allele-dna.fa).
     
