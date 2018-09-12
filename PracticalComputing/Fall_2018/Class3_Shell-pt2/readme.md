@@ -1,6 +1,7 @@
 # Class 3 - Sept. 14th 2018
 - In this class we will:
     - Learn to combine bash commands together to create functions and scripts
+    - Learn to use for loops in bash to batch process multiple files
 
 ### Required Reading (**Must be completed ahead of time**)
 Practical Computing for Biologists, Chapter 6, 16 (p.309-316)
@@ -30,7 +31,7 @@ Save this script within your "scripts" directory (created in exercise #1), but r
 
 3. Move into "Class3\_Shell-pt2/sandbox/images". This directory contains several pdf files. Using ```ls``` in combination with regular expressions within your text editor, as described in PCfB p.91-96, generate a shell script that will create renamed copies of all of these pdf files within a new sub-directory called "images\_renamed". For the image files that start with "test\_", the new names should omit "test\_3.6.7\_" from the beginning of the file names and ".txt" from within the file names. For the remaining files, omit all of the name that comes prior to the '-' character.
 
-4. Move into "Class3\_Shell-pt2/sandbox/zika\_genomes". This directory contains 88 fasta files, each containing a single Zika virus genome, and each sequence containing line within the fasta files has a maximum length of 70 nucleotides. 
+4. Move into "Class3\_Shell-pt2/sandbox/zika\_genomes". This directory contains 89 fasta files. 88 of these each containing a single Zika virus genome, and each sequence containing line within these fasta files has a maximum length of 70 nucleotides. The other is a test file containing a dummy sequence wrapped 5 nucleotides per line.
 
     This directory also contains a simple python script - "wrap_fasta.py" - that changes the length of the sequence lines in a fasta file. Here is an example command that will take an input fasta and generate a new version with sequence containing lines up to 20,000 nucleotides long:
 
@@ -38,7 +39,13 @@ Save this script within your "scripts" directory (created in exercise #1), but r
 
 i. Copy this python script into your 'scripts' directory and make it executable.  
 
-ii. Use a for loop to batch process all of these Zika virus genomes, using wrap_fasta.py to create new versions in which each viral genome sequence will be contained on a single line (hint: the Zika virus genome is a little less than 11,000 nucleotides long). Make sure that you do not overwrite the original versions of the fasta sequences (i.e., the output.fasta name must be different from the input.fasta name). 
+ii. Test that the program is working by running the following command:
+
+```wrap_fasta.py  dummy.fasta  dummy_singleline.fasta 20```
+
+This command should create a new file within your working directory called "dummy_singleline.fasta" and in this file, the dummy sequence should now be contained on a single line (instead of being split across four lines, as in dummy.fasta)
+
+iii. Use a for loop (entered directly within the terminal window) to batch process all of these Zika virus genomes, using wrap_fasta.py to create new versions in which each viral genome sequence will be contained on a single line (hint: the Zika virus genome is a little less than 11,000 nucleotides long). Make sure that you do not overwrite the original versions of the fasta sequences (i.e., the output.fasta name must be different from the input.fasta name). 
 
 5. Write a shell function called 'whiched' that will use ```which``` to obtain the full path of a script/program in your $PATH and then automatically open that file in your text editor of choice. This can be a command line editor, like ```nano```, or a GUI editor that can be invoked from the command line, like ```bbedit```. Test this function using the "dummy.txt" script from exercise #2. 
 
