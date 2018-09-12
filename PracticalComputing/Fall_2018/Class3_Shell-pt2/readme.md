@@ -28,7 +28,7 @@ This should automatically open the jupyter notebook within your default browser.
 
 Save this script within your "scripts" directory (created in exercise #1), but run the script from within "Class3\_Shell-pt2/sandbox".
 
-3. Move into "Class3\_Shell-pt2/sandbox/images". This directory contains several pdf files. Using ```ls``` in combination with regular expressions within your text editor, as described in PCfB p.91-96, generate a shell script that will create renamed copies of all of these pdf files within a new sub-directory called "images\_renamed". For the image files that start with "test_", the new names should omit "test\_" from the beginning of the file names and ".txt" from within the file names. For the remaining files, omit all of the name that comes prior to the '-' character.
+3. Move into "Class3\_Shell-pt2/sandbox/images". This directory contains several pdf files. Using ```ls``` in combination with regular expressions within your text editor, as described in PCfB p.91-96, generate a shell script that will create renamed copies of all of these pdf files within a new sub-directory called "images\_renamed". For the image files that start with "test\_3.6.7\_", the new names should omit "test\_" from the beginning of the file names and ".txt" from within the file names. For the remaining files, omit all of the name that comes prior to the '-' character.
 
 4. Move into "Class3\_Shell-pt2/sandbox/zika\_genomes". This directory contains 88 fasta files, each containing a single Zika virus genome, and each sequence containing line within the fasta files has a maximum length of 70 nucleotides. 
 
