@@ -47,7 +47,7 @@ This command should create a new file within your working directory called "dumm
 
 iii. Use a for loop (entered directly within the terminal window) to batch process all of these Zika virus genomes, using wrap_fasta.py to create new versions in which each viral genome sequence will be contained on a single line (hint: the Zika virus genome is a little less than 11,000 nucleotides long). Make sure that you do not overwrite the original versions of the fasta sequences (i.e., the output.fasta name must be different from the input.fasta name). 
 
-5. Write a shell function called 'whiched' that will use ```which``` to obtain the full path of a script/program in your $PATH and then automatically open that file in your text editor of choice. This can be a command line editor, like ```nano```, or a GUI editor that can be invoked from the command line, like ```bbedit```. Test this function using the "dummy.txt" script from exercise #2. 
+5. Write a shell function called 'whiched' that will use ```which``` to obtain the full path of a script/program in your $PATH and then automatically open that file in your text editor of choice. This can be a command line editor, like ```nano```, or a GUI editor that can be invoked from the command line, like ```bbedit```. Test this function using the script you wrote in exercise #2. 
 
 6. Write your own custom shell script that includes the following elements:
     1. A custom function that is both defined and utilized within the script
