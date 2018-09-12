@@ -21,16 +21,16 @@ This should automatically open the jupyter notebook within your default browser.
 
 1. If you haven't done so already, follow the instructions on PCfB p.85-88 to set up your own scripts directory and to add this directory to your system's PATH.
 
-2. Move into "Class3\_Shell-pt2/scratch". Within this directory, you will find a file called "dummy.txt". Write and execute a simple shell script that will:
-    1. Create a new directory within "Class3\_Shell-pt2/scratch" called "dummy_dir"
+2. Move into "Class3\_Shell-pt2/sandbox". Within this directory, you will find a file called "dummy.txt". Write and execute a simple shell script that will:
+    1. Create a new directory within "Class3\_Shell-pt2/sandbox" called "dummy_dir"
     2. Move "dummy.txt" into this new directory
     3. Rename "dummy.txt" to "done.txt"
 
-Save this script within your "scripts" directory (created in exercise #1), but run the script from within "Class3\_Shell-pt2/scratch".
+Save this script within your "scripts" directory (created in exercise #1), but run the script from within "Class3\_Shell-pt2/sandbox".
 
-3. Move into "Class3\_Shell-pt2/scratch/images". This directory contains several pdf files. Using ```ls``` in combination with regular expressions within your text editor, as described in PCfB p.91-96, generate a shell script that will create renamed copies of all of these pdf files within a new sub-directory called "images\_renamed". For the image files that start with "test_", the new names should omit "test\_" from the beginning of the file names and ".txt" from within the file names. For the remaining files, omit all of the name that comes prior to the '-' character.
+3. Move into "Class3\_Shell-pt2/sandbox/images". This directory contains several pdf files. Using ```ls``` in combination with regular expressions within your text editor, as described in PCfB p.91-96, generate a shell script that will create renamed copies of all of these pdf files within a new sub-directory called "images\_renamed". For the image files that start with "test_", the new names should omit "test\_" from the beginning of the file names and ".txt" from within the file names. For the remaining files, omit all of the name that comes prior to the '-' character.
 
-4. Move into "Class3\_Shell-pt2/scratch/zika\_genomes". This directory contains 88 fasta files, each containing a single Zika virus genome, and each sequence containing line within the fasta files has a maximum length of 70 nucleotides. 
+4. Move into "Class3\_Shell-pt2/sandbox/zika\_genomes". This directory contains 88 fasta files, each containing a single Zika virus genome, and each sequence containing line within the fasta files has a maximum length of 70 nucleotides. 
 
     This directory also contains a simple python script - "wrap_fasta.py" - that changes the length of the sequence lines in a fasta file. Here is an example command that will take an input fasta and generate a new version with sequence containing lines up to 20,000 nucleotides long:
 
