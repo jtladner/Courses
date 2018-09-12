@@ -1,5 +1,5 @@
 # Class 2 - Sept. 7th 2018
-- In this first class we will:
+- In this class we will:
     - Learn to use the shell/terminal to interact with your computer
 
 ### Required Reading (**Must be completed ahead of time**)

@@ -1,6 +1,6 @@
 # Class 3 - Sept. 14th 2018
-- In this first class we will:
-    - 
+- In this class we will:
+    - Learn to combine bash commands together to create functions and scripts
 
 ### Required Reading (**Must be completed ahead of time**)
 Practical Computing for Biologists, Chapter 6, 16 (p.309-316)
