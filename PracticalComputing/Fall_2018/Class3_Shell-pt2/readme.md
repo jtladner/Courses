@@ -10,6 +10,7 @@ Practical Computing for Biologists, Chapter 6, 16 (p.309-316)
 Python scripts are generally simple text files that are executed on the command line, just like the bash shell scripts we will be generating in today's class. However, there are also GUIs available that allow for python scripts (and those written in other programming languages), to be written and executed without needing the command line. We will use this type of interactive interface for our initial introduction to Python programming next week and again, later in the class, when we learn how to use Python to generate figures. The interactive GUI we will use is called Jupyter Notebook. 
 
 1. Install Jupyter Notebook
+
 There are multiple ways that you can [install the Jupyter Notebook](http://jupyter.org/install), but I highly recommend installing using the [Anaconda Distribution](https://www.anaconda.com/download/). Anaconda is available for Windows, Linux and MacOS and the Jupyter Notebook is automatically installed as a part of the Anaconda distribution. For compatibility with the PCfB book, please install the Python 2.7 version of Anaconda. 
 
 After Anaconda has been installed, open a terminal window (Mac/Linux) or the "Anaconda Prompt" (Windows) and run the following command: ```jupyter notebook```
