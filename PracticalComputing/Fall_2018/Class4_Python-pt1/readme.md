@@ -17,7 +17,11 @@ Practical Computing for Biologists, Chapters 7-8
     1. One potential use for this interface...a handy calculator! Quick, what's 346783/87268939? Does the result look different from what you expected? Don't forget about the difference between floats and integers. 
     2. The other reason this interface is really useful is as a test bed, to make sure that commands work as you expect before adding them to your script. One topic that wasn't covered in exercise 1 is how to extract substrings from a string in python. This is done with the use of brackets (e.g., string[:4], string[1:-1]). Using the interactive shell, create your own string variable, and then use it to experiment with this syntax for substring extraction. 
 
-3.  Now that you're familiar with the python syntax for strings, integers and floats, it's time to write a python script contained within a text file for execution within your bash shell. 
+3.  Now that you're familiar with the python syntax for strings, integers and floats, it's time to write a python script contained within a text file for execution within your bash shell. Your script should 1) take as input a DNA sequence provided by the user (see ```raw_input``` example in PCfB p. 137-139), 2) calculate and report the GC content of the sequence (i.e., % of total bases that are G or C) and 3) generate the reverse complement of the provided sequence. 
+
+- The reverse complement of a DNA sequence is formed by reversing the letters and interchanging A and T and interchanging C and G. Thus the reverse complement of ACCTGAG is CTCAGGT.
+
+- Hint: [to reverse a string](https://stackoverflow.com/questions/931092/reverse-a-string-in-python)
 
 ## Extra fun
 
