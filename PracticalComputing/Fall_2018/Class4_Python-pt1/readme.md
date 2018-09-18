@@ -6,6 +6,7 @@
 
 ### Required Reading (**Must be completed ahead of time**)
 Practical Computing for Biologists, Chapters 7-8
+
 [Jupyter Notebook Tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook)
 
 ### Exercises
