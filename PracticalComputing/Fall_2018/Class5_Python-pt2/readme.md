@@ -14,7 +14,8 @@ Practical Computing for Biologists, Chapters 9-10
 2. For this exercise we will be revisiting the "HastingsBirdList\_2007.txt" dataset that we rearranged with regular expressions during our first class. Use your newly acquired Python coding skills to write a stand-alone script that will accomplish all of the formatting originally done with a (very complicated) regular expression. See [Class 1 Exercise 3](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class1_Intro_RegExp) for a refresher. 
 
 This script should: 
-    1. Read in the existing file 
+    
+    1. Read in the existing file
     2. Parse the file, line by line 
     3. Write out a new file (with a different name) with the data reformatted 
 
