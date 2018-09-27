@@ -17,7 +17,12 @@ This script should:
     
     1. Read in the existing file
     2. Parse the file, line by line 
-    3. Write out a new file (with a different name) with the data reformatted 
+    3. Write out a new file (with a different name) with the data reformatted
+
+3. The file "MACVCarvallo68\_R1\_Q20\_cutadapt\_paired\_bwamem\_3.5_dels.txt" contains information about defective interferining genomes of Machupo virus. With the exception of the header, each line contains information about a particular deletion mutatant. Write a python script that reads through this file line by line and:
+
+    1. Creates a dictionary containing 1 key for each unique mutant (i.e., same "RefName", "DelLeft" and "DelRight") and with the values indicating the number of occurences of the corresponding mutant.
+    2. Creates an output file that includes the total count of unique mutants on each genome segment ("RefName") and information about all mutants that occur more than once within the dataset. You can format the output however you like. 
 
 ## Extra fun
 
