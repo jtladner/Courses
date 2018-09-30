@@ -49,7 +49,7 @@ Week | Date | Topic | Required reading (#s = PCfB Chapters) | Optional Reading
 [3](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class3_Shell-pt2) | 9/14 | The Shell - Part 2 | 6, 16 (p.309-316) |
 [4](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class4_Python-pt1) | 9/21 | Python Programming - Part 1 | 7-8, [Jupyter Notebook Tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) |
 [5](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class5_Python-pt2) | 9/28 | Python Programming - Part 2 | 9-10 |
-[6](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class6_Python-pt3) | 10/5 | Python Programming - Part 3 | 11-12 |
+[6](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class6_Python-pt3) | 10/5 | Python Programming - Part 3 | 12 |
 [7](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class7_Debugging) | 10/12 | Debugging, Combining methods | 13-14 |
 [8](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class8_Graphics) | 10/19 | Graphical concepts: vectors vs. pixels | 17-19 |
 [9](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class9_Matplotlib) | 10/26 | Making figures in python | [Matplotlib Overview](https://towardsdatascience.com/data-science-with-python-intro-to-data-visualization-and-matplotlib-5f799b7c6d82) | 
