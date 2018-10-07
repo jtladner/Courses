@@ -10,9 +10,9 @@ Practical Computing for Biologists, Chapters 13,16
 
 For today's exercises, I've provided a set of Python scripts, all containing bugs that either prevent execution or result in unintended results. The buggy scripts have been organized into levels depending on the nature of the bugs. 
 
-#### **Level 1**: each script containins a single bug that will prevent the script from running
+#### Level 1: each script containins a single bug that will prevent the script from running
 
-    1. Exercise 1.1: rev_comp.py is a script that accepts one or more DNA sequences as arguments on the command line. The reverse complement versions of these sequences will be printed to the screen. Here is an example command:
+1. Exercise 1.1: rev_comp.py is a script that accepts one or more DNA sequences as arguments on the command line. The reverse complement versions of these sequences will be printed to the screen. Here is an example command:
     
     ```rev_comp.py ACTGTAGACACACCATAG```
 
