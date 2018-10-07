@@ -18,13 +18,13 @@ For today's exercises, I've provided a set of Python scripts, all containing bug
 
     There are three version of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
     
-    2. Exercise 1.2: string_replace.py replaces a list of strings within a file, each with a specified replacement string. The target and replacement strings are provided as a tab-delimited file (e.g., "names_to_replace.txt"). You also need to provide the input file and a name for the output file. Here is an example command:
+2. Exercise 1.2: string_replace.py replaces a list of strings within a file, each with a specified replacement string. The target and replacement strings are provided as a tab-delimited file (e.g., "names_to_replace.txt"). You also need to provide the input file and a name for the output file. Here is an example command:
     
     ```string_replace.py -i infile.txt -o outfile.txt -s names_to_replace.txt```
 
     There are three version of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
 
-    3. Exercise 1.3: fasta2phy.py is a script that converts a fasta formatted alignment file to a relaxed phylip formatted file. Here is an example command:
+3. Exercise 1.3: fasta2phy.py is a script that converts a fasta formatted alignment file to a relaxed phylip formatted file. Here is an example command:
     
     ```./fasta2phy.py -f lassa_seqs.fasta```
 
