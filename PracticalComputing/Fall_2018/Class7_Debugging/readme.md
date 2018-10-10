@@ -16,19 +16,36 @@ For today's exercises, I've provided a set of Python scripts, all containing bug
     
     ```rev_comp.py ACTGTAGACACACCATAG```
 
-    There are three version of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
+    There are three versions of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
     
-2. Exercise 1.2: string_replace.py replaces a list of strings within a file, each with a specified replacement string. The target and replacement strings are provided as a tab-delimited file (e.g., "names_to_replace.txt"). You also need to provide the input file and a name for the output file. Here is an example command:
+2. Exercise 1.2: string\_replace.py replaces a list of strings within a file, each with a specified replacement string. The target and replacement strings are provided as a tab-delimited file (e.g., "names\_to_replace.txt"). You also need to provide the input file and a name for the output file. Here is an example command:
     
     ```string_replace.py -i infile.txt -o outfile.txt -s names_to_replace.txt```
 
-    There are three version of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
+    There are three versions of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
 
 3. Exercise 1.3: fasta2phy.py is a script that converts a fasta formatted alignment file to a relaxed phylip formatted file. Here is an example command:
     
     ```./fasta2phy.py -f lassa_seqs.fasta```
 
-    There are three version of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
+    There are three versions of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
+
+3. Exercise 1.4: In this exercise, you will revisit wrap\_fasta.py, the Python script we used in Class 3 Exercise 4. As a reminder, this script changes the length of the sequence lines within a fasta file. Here is an example command:
+
+    ```wrap_fasta.py -f zika_1_1.fasta -o zika_1_1_1000.fasta -w 1000```
+
+    There are three versions of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
+
+
+#### Level 2: each script contains a single bug. The bug will not prevent the script from running, but will prevent generation of the expected output. 
+
+1. Exercise 2.1: Again, you'll be focusing on wrap\_fasta.py. There are two versions of this script. Each contains a single bug. There is also a file called ExpectedOutput.fasta, which contains the expected output of the bug free script. Attempt to run the example command with both versions, check the output and track down the bug. 
+
+2. Exercise 2.2: XXXX is a script that accepts one or more DNA sequences as 
+
+    ```./list_matches.py -1 list1.txt -2 list2.txt -o output.txt```
+
+3. Exercise 2.3: XXXX is a script that accepts one or more DNA sequences as 
 
 
 ## Extra fun
