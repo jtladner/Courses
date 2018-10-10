@@ -39,13 +39,13 @@ For today's exercises, I've provided a set of Python scripts, all containing bug
 
 #### Level 2: each script contains a single bug. The bug will not prevent the script from running, but will prevent generation of the expected output. 
 
-1. Exercise 2.1: Again, you'll be focusing on wrap\_fasta.py. There are two versions of this script. Each contains a single bug. There is also a file called ExpectedOutput.fasta, which contains the expected output of the bug free script. Attempt to run the example command with both versions, check the output and track down the bug. 
+1. Exercise 2.1: Again, you'll be focusing on wrap\_fasta.py. There are two versions of this script. Each contains a single bug. There is also a file called ExpectedOutput.fasta, which contains the expected output of the bug free script. Attempt to run the example command with both versions, check the output and track down the bugs. 
 
-2. Exercise 2.2: XXXX is a script that accepts one or more DNA sequences as 
+2. Exercise 2.2: list_matches.py is a script that compares two lists of items (read in from text files). It prints three pieces of information to the screen: 1) the length of the first list, 2) the length of the second list and 3) the number of shared elements. It also creates a new text file containing only the shared elements. Here is an example command:  
 
     ```./list_matches.py -1 list1.txt -2 list2.txt -o output.txt```
 
-3. Exercise 2.3: XXXX is a script that accepts one or more DNA sequences as 
+There are two versions of this script. Attempt to run the example command with both versions, check the output and track down the bugs.
 
 
 ## Extra fun
