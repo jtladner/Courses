@@ -26,7 +26,7 @@ For today's exercises, I've provided a set of Python scripts, all containing bug
 
 3. Exercise 1.3: fasta2phy.py is a script that converts a fasta formatted alignment file to a relaxed phylip formatted file. Here is an example command:
     
-    ```./fasta2phy.py -f lassa_seqs.fasta```
+    ```fasta2phy.py -f lassa_seqs.fasta```
 
     There are three versions of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
 
@@ -34,7 +34,7 @@ For today's exercises, I've provided a set of Python scripts, all containing bug
 
     ```wrap_fasta.py -f zika_1_1.fasta -o zika_1_1_1000.fasta -w 1000```
 
-    There are three versions of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
+    There are two versions of this script. Each contains a single bug. Attempt to run the example command with both versions and track down the bug based on the error messages. 
 
 
 #### Level 2: each script contains a single bug. The bug will not prevent the script from running, but will prevent generation of the expected output. 
@@ -50,7 +50,9 @@ There are two versions of this script. Attempt to run the example command with b
 
 ## Extra fun
 
-Coming soon!
+[pdb module](https://docs.python.org/2/library/pdb.html)
+
+[other tools](https://wiki.python.org/moin/PythonDebuggingTools)
 
 Copyright (C) 2017  Jason Ladner
 
