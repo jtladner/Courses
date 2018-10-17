@@ -9,13 +9,34 @@ Practical Computing for Biologists, Chapters 17-19
 
 ### Exercises
 
-Coming soon!
+1. If you are using Inkscape, read through both the [Basic](https://inkscape.org/en/doc/tutorials/basic/tutorial-basic.html) and [Advanced](https://inkscape.org/en/doc/tutorials/advanced/tutorial-advanced.html) tutorials on the Inkscape website. Make sure to try all of the explained commands within the Inkscape program. 
+
+If you are using Illustrator, work through this [vector basics tutorial](https://www.youtube.com/watch?v=GFY0_EMVYDw&feature=youtu.be). Please use headphones!
+
+2. HapNetwork.pdf contains a vector-based haplotype network depicting the relationships among several Ebola virus genomes from the West African outbreak. First, remove the background grey shapes. Second, use the "Select -> Same" tool to quickly adjust the color scheme to something recommended on [ColorBrewer2](http://colorbrewer2.org). Finally, change the location names to the names of your chosen colors. 
+
+3. Open scatter.pdf in your vector editor of choice. This file contains a scatterplot generated using the Python module Matplotlib. Before getting starting with the following tasks, use the "Direct selection" or "Edit paths by nodes" tool to select and explore various objects in the graph. There are probably a lot more objects than you would have predicted. This is often the case with graphs exported from programs such as R, Matlab or Python. 
+
+    1. This figure will be used in a manuscript, with a width of only 1/3 of a page. Try to increase the size of of the axis labels for clarity in the printed version. Notice somethng unexpected? Even within a vector-based graphic, numbers and letters are not always output as editable text. In this case, you have two options: 1) keep the numebrs simply as shapes and enlarge using a combination of the two arrow tools or 2) delete the existing labels and use the Type tool to replace them with editable text versions. These can then be resized just as you would resize text in Word. 
+    
+    2. Next, use the Type tool to add x- and y- axis labels. The y-axis label should be "log(uniq 19mers in cluster)" and the x-axis label should be "log(# of sequences)". Make sure the labels will be easily visible in printed form. 
+    
+    3. To allow for easier editing, use the 'Select -> Same' tool to move similar elements (e.g., elements with the same fill and stroke) onto different layers. Go ahead and hide the layer containing elements with transparent stroke AND fill. Also hide the layers containing elements with red/blue stroke, but transparent fill. 
+    
+    4. Note how your impression of the data changes depending on whether the layer with the blue circles is above or below the layer with the red circles. In order to better visualize the overlapping points, convert the fill of all the circles to 50% transparency. 
+
+4. tarantula.jpg is a photo of a tarantula that my dad found on a golf course in Tulsa, OK. 
+    1. Use the Pen tool to trace the tarantula using bezier curves. This will allow you to generate a simplified vector version that could be used in a presentation of a figure. 
+    
+    2. As an alternative approach to the goal, play around with the [Live Trace function](https://helpx.adobe.com/illustrator/using/tracing-artwork-live-trace-or.html) if you're using Illustrator or [Trace Bitmap](http://goinkscape.com/how-to-vectorize-in-inkscape/) if you're using Inkscape. 
 
 ## Extra fun
 
-Coming soon!
+[Complete Beginner's Guide to Adobe Illustrator](https://www.pgsd.org/cms/lib07/PA01916597/Centricity/Domain/202/illustrator_for_beginners_tastytuts.pdf)
 
-Copyright (C) 2017  Jason Ladner
+
+
+Copyright (C) 2018  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
