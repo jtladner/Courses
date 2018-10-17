@@ -9,9 +9,10 @@ Practical Computing for Biologists, Chapters 17-19
 
 ### Exercises
 
-1. If you are using Inkscape, read through both the [Basic](https://inkscape.org/en/doc/tutorials/basic/tutorial-basic.html) and [Advanced](https://inkscape.org/en/doc/tutorials/advanced/tutorial-advanced.html) tutorials on the Inkscape website. Make sure to try all of the explained commands within the Inkscape program. 
+1. 
+    a. If you are using Inkscape, read through both the [Basic](https://inkscape.org/en/doc/tutorials/basic/tutorial-basic.html) and [Advanced](https://inkscape.org/en/doc/tutorials/advanced/tutorial-advanced.html) tutorials on the Inkscape website. Make sure to try all of the explained commands within the Inkscape program. 
 
-If you are using Illustrator, work through this [vector basics tutorial](https://www.youtube.com/watch?v=GFY0_EMVYDw&feature=youtu.be). Please use headphones!
+    b. If you are using Illustrator, work through this [vector basics tutorial](https://www.youtube.com/watch?v=GFY0_EMVYDw&feature=youtu.be). Please use headphones!
 
 2. HapNetwork.pdf contains a vector-based haplotype network depicting the relationships among several Ebola virus genomes from the West African outbreak. First, remove the background grey shapes. Second, use the "Select -> Same" tool to quickly adjust the color scheme to something recommended on [ColorBrewer2](http://colorbrewer2.org). Finally, change the location names to the names of your chosen colors. 
 
