@@ -7,7 +7,7 @@
 Practical Computing for Biologists, Chapters 17-19
 
 
-### Exercises
+### Vector Exercises
 
 1. 
     a. If you are using Inkscape, read through both the [Basic](https://inkscape.org/en/doc/tutorials/basic/tutorial-basic.html) and [Advanced](https://inkscape.org/en/doc/tutorials/advanced/tutorial-advanced.html) tutorials on the Inkscape website. Make sure to try all of the explained commands within the Inkscape program. 
@@ -30,6 +30,9 @@ Practical Computing for Biologists, Chapters 17-19
     1. Use the Pen tool to trace the tarantula using bezier curves. This will allow you to generate a simplified vector version that could be used in a presentation of a figure. 
     
     2. As an alternative approach to the goal, play around with the [Live Trace function](https://helpx.adobe.com/illustrator/using/tracing-artwork-live-trace-or.html) if you're using Illustrator or [Trace Bitmap](http://goinkscape.com/how-to-vectorize-in-inkscape/) if you're using Inkscape. 
+
+
+### Pixel Exercises
 
 ## Extra fun
 
