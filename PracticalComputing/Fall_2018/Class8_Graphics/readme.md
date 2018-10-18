@@ -27,7 +27,7 @@ Practical Computing for Biologists, Chapters 17-19
     4. Note how your impression of the data changes depending on whether the layer with the blue circles is above or below the layer with the red circles. In order to better visualize the overlapping points, convert the fill of all the circles to 50% transparency. 
 
 4. tarantula.jpg is a photo of a tarantula that my dad found on a golf course in Tulsa, OK. 
-    1. Use the Pen tool to trace the tarantula using bezier curves. This will allow you to generate a simplified vector version that could be used in a presentation of a figure. 
+    1. Use the Pen tool to trace the tarantula using bezier curves. This will allow you to generate a simplified vector version that could be used in a presentation of a figure. Make sure that your trace is placed a separate layer from the starting image. 
     
     2. As an alternative approach to the goal, play around with the [Live Trace function](https://helpx.adobe.com/illustrator/using/tracing-artwork-live-trace-or.html) if you're using Illustrator or [Trace Bitmap](http://goinkscape.com/how-to-vectorize-in-inkscape/) if you're using Inkscape. 
 
