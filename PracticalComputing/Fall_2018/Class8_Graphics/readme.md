@@ -14,7 +14,9 @@ Practical Computing for Biologists, Chapters 17-19
 
     b. If you are using Illustrator, work through this [vector basics tutorial](https://www.youtube.com/watch?v=GFY0_EMVYDw&feature=youtu.be). Please use headphones!
 
-2. HapNetwork.pdf contains a vector-based haplotype network depicting the relationships among several Ebola virus genomes from the West African outbreak. First, remove the background grey shapes. Second, use the "Select -> Same" tool to quickly adjust the color scheme to something recommended on [ColorBrewer2](http://colorbrewer2.org). Finally, change the location names to the names of your chosen colors. 
+2. HapNetwork.pdf (or HapNetwork.svg) contains a vector-based haplotype network depicting the relationships among several Ebola virus genomes from the West African outbreak. First, remove the background grey shapes. Second, use the "Select -> Same" tool to quickly adjust the color scheme to something recommended on [ColorBrewer2](http://colorbrewer2.org). Finally, change the location names to the names of your chosen colors. 
+
+The PDF version should work well for Illustrator, SVG will be better for Inkscape. 
 
 3. Open scatter.pdf in your vector editor of choice. This file contains a scatterplot generated using the Python module Matplotlib. Before getting starting with the following tasks, use the "Direct selection" or "Edit paths by nodes" tool to select and explore various objects in the graph. There are probably a lot more objects than you would have predicted. This is often the case with graphs exported from programs such as R, Matlab or Python. 
 
@@ -33,6 +35,12 @@ Practical Computing for Biologists, Chapters 17-19
 
 
 ### Pixel Exercises
+
+1. On the GitHub directory for this class, I've included two underexposed, pixel-based  images: Gel.jpg is a photo of an agarose gel and Grace.jpg is a photo of my daughter. Open these images in either Photoshop or GIMP and play with the levels (as described in PCfB p. 376-368) to see how this changes the appearance of the image. Save the new levels as a distinct layer (Photoshop: Layer > New Adjustment Layer > Levels..., GIMP: Layer > Duplicate Layer, then Colors > Levels...) to make it easy to toggle between the new and original levels.
+
+2. On your version of Gel.jpg with the new levels, use the Type/Text tool to add annotations to the image. The bands on the left are from a molecular weight size marker (i.e. a ladder) and the bands on the right are viral genome segments. Feel free to choose whatever labels you want. 
+
+3. Another possibility for generating an image of the tarantula for a presentation (as opposed to creating a vector-based version) would be to 
 
 ## Extra fun
 
