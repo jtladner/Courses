@@ -10,7 +10,7 @@ Practical Computing for Biologists, Chapters 17-19
 ### Vector Exercises
 
 1. 
-    a. If you are using Inkscape, read through both the [Basic](https://inkscape.org/en/doc/tutorials/basic/tutorial-basic.html) and [Advanced](https://inkscape.org/en/doc/tutorials/advanced/tutorial-advanced.html) tutorials on the Inkscape website. Make sure to try all of the explained commands within the Inkscape program. 
+    a. If you are using Inkscape, read through both the [Basic](https://inkscape.org/en/doc/tutorials/basic/tutorial-basic.html) and [Advanced](https://inkscape.org/en/doc/tutorials/advanced/tutorial-advanced.html) tutorials. These links are to the static html versions on the Inkscape website, but these can also be accessed with the Inkscape program with Help > Tutorials. This will bring you to an interactive verion. Make sure to try all of the explained commands within the Inkscape program. 
 
     b. If you are using Illustrator, work through this [vector basics tutorial](https://www.youtube.com/watch?v=GFY0_EMVYDw&feature=youtu.be). Please use headphones!
 
