@@ -53,7 +53,7 @@ Week | Date | Topic | Required reading (#s = PCfB Chapters) | Optional Reading
 [7](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class7_Debugging) | 10/12 | Debugging, Combining methods | 13-14 |
 [8](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class8_Graphics) | 10/19 | Graphical concepts: vectors vs. pixels | 17-19 |
 [9](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class9_Matplotlib) | 10/26 | Making figures in python | [Matplotlib Overview](https://towardsdatascience.com/data-science-with-python-intro-to-data-visualization-and-matplotlib-5f799b7c6d82) | 
-10 | 11/2 | Manage code with GitHub, Hackathon #1 intro/plan of attack| 
+10 | 11/2 | Manage code with GitHub, Hackathon #1 intro/plan of attack| [intro](http://swcarpentry.github.io/git-novice/), [basics](http://swcarpentry.github.io/git-novice/01-basics/index.html), [open science](http://swcarpentry.github.io/git-novice/10-open/index.html) 
 11 | 11/9 | Hackathon #1 workday| 
 12 | 11/16 | Hackathon #1 workday/wrap up, Hackathon #2 intro/plan of attack | 
 13 | 11/23 | No Class. Thanksgiving break.  | 

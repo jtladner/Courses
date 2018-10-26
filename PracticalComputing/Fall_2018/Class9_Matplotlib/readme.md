@@ -1,18 +1,23 @@
 # Class 9 - Oct. 26th 2018
 - In this first class we will:
-    - Learn to use matplotlib to create figures using python
+    - Learn to use the matplotlib module to create figures using python
 
 ### Required Reading (**Must be completed ahead of time**)
-Coming soon!
-
+[Matplotlib Overview](https://towardsdatascience.com/data-science-with-python-intro-to-data-visualization-and-matplotlib-5f799b7c6d82)
 
 ### Exercises
 
-[Maybe](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python?utm_source=adwords_ppc&utm_campaignid=876810440&utm_adgroupid=54946380885&utm_device=c&utm_keyword=&utm_matchtype=&utm_network=d&utm_adpostion=none&utm_creative=277443658543&utm_targetid=aud-463029047231&utm_loc_interest_ms=&utm_loc_physical_ms=9030289&gclid=EAIaIQobChMIvqWK_P_v3AIVygatBh27pgGJEAEYASAAEgKl6PD_BwE)
+1. Work through the first chapter of Datacamp's [Intermediate Python for Data Science](https://www.datacamp.com/courses/intermediate-python-for-data-science) course, which is focused on the basics of Matplotlib. You will need to sign up for an account (if you want you can log in via Google or Facebook), but this chapter is free. There will be three short video tutorials followed by exercises that you will complete within the browser.
+
+2. Open the Jupyter notebook called "Class9_Matplotlib.ipynb" and work through the different cells. This notebook will introduce some more advanced Matplotlib functionality and includes several related exercises. 
+
+3. Choose an interesting plot from this [gallery](https://matplotlib.org/2.1.1/gallery/index.html). Copy the code into a new Jupyter notebook in order to recreate the plot. Then, play around with the code to explore what each statement is doing.
 
 ## Extra fun
 
 [cmaputil](https://github.com/pnnl/cmaputil)
+
+[gif map](https://towardsdatascience.com/how-to-make-a-gif-map-using-python-geopandas-and-matplotlib-cd8827cefbc8)
 
 Copyright (C) 2017  Jason Ladner
 
