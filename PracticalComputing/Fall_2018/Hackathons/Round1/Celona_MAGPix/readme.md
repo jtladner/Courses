@@ -1,8 +1,8 @@
-#Overview
+# Overview
 
 For this project you will be parsing data from 3 MAGPix results CSV files and selecting two data types, Median and Count, to parse and re-organize for further project analyses.
 
-##Analysis Steps
+## Analysis Steps
 
 1. Read in 3 input file types
 	i. 3 MAGPix CSV files (hint: look at Dan Sanchez's Google group post on converting CSV to TSV)
@@ -28,5 +28,5 @@ outlier outputfile along with the protein it corresponds with. In addition, list
 number of instances that a particular protein was below the cutoff value.
 
 
-##Example command
+## Example command
 
