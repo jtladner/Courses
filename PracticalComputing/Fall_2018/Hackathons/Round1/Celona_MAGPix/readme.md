@@ -4,14 +4,6 @@ For this project you will be parsing data from 3 MAGPix results CSV files and se
 
 ## Analysis Steps
 
-1. Read in 3 input file types
-	i. 3 MAGPix CSV files (hint: look at Dan Sanchez's Google group post on converting CSV to TSV)
-		
-	ii. Assay metadata txt file
-		
-	iii. Protein dictionary file
-		
-
 1. Read in the "protein_dict.txt" file. This file contains a list of the protein names you will encounter in the MAGPix CSV file (1st column) and a corresponding list of names that should be used instead within the output files (column 2). The order of the rows in "protein\_dict.txt" (top-to-bottom) should also be used to re-order the protein data columns in the output files (left-to-right).
 
 2. Read in the "Assay_metadata.txt" file. This file contains information concerning the two columns that need to be added to the output data files. One column will be 'Disease State' and a second 'Isotype'. Use this file to feed in the information and formulate two new columns- 'Disease State' on the left side of 'Sample' and 'Isotype' on the right side of 'Sample'.
