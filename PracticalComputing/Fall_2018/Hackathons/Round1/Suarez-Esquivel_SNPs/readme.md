@@ -19,7 +19,7 @@ context, and we are currently working on the analysis of an large amount of info
 For this hackathon project we will be working on the analysis of Brucella abortus genomes,
 the most important Brucella species in Costa Rica.
 
-We mapped and aligned all the genomes (n= 149) to a known and well annotated reference, and
+We mapped and aligned all the genomes (n= 150) to a known and well annotated reference, and
 called the variant sites from there. As part of the output we have a huge text file (tab
 delimited) that includes detailed information of the position of those variant sites.
 
@@ -68,7 +68,7 @@ The file has a column for each one of the following details:
   bit the coding. If needed, we could use some regex to change the input file previously.
 - The names of the genomes are varied, as some come from databases. The genomes that we
   sequenced are identified with the sequencing lane, for example "11502_1#17". The symbol
-  "#" usually is confusing. Also, numbers and letter combinations are used for the public
+  "#" usually is confusing. Also, numbers and letters combinations are used for the public
   databases genomes.
   
   
@@ -77,10 +77,17 @@ The file has a column for each one of the following details:
   or the same host species. So we could expect some shared SNPs among them that are unique to
   those groups.
 - Three groups that could be used for testing the script(s) are:
-  1. The group of the genomes id as: "B_\d{3}_S"
-  2. The group of the genomes id as: "\d{5}_SJC_\d#\d"
-  3. The complete group of Costa Rican isolates: "\d{5}_\w{1,3}_\d#\d" + "B_\d{3}_S", but
-    excluding "\d{5}_Sp_\d#\d" and "\d{5}_Nig\d#\d", that are from Spain and Nigeria. 
+  1. The group of the genomes id as (n=12): "B_\d{3}_S"
+     - Manual review of these isolates showed 44 unique SNPs for the group, however no one
+       is shared among all, but only for two or three. This could be found if the script
+       filters all unique, and then all shared among those unique.
+  2. The group of the genomes id as (n=53): "\d{5}_SJC_\d#\d"
+     - This group includes 13 unique and shared SNPs, plus 22 SNPs unique for them, but not
+       shared by all.
+  3. The complete group of Costa Rican isolates (n=78): "\d{5}_\w{1,3}_\d#\d" + "B_\d{3}_S", but
+    excluding "\d{5}_Sp_\d#\d" and "\d{5}_Nig\d#\d", that are from Spain (n=3) and Nigeria
+    (n=6).
+    - This group shares 50 SNPs unique and shared among them, plus 139 unique but not shared. 
   
   
     
