@@ -1,0 +1,9 @@
+Assay	Plate	Lines	Disease State	Isotype
+1	1	1-96	Melioid	IgM
+1	2	1-96	Melioid	IgG
+2	1	1-33	Non-Melioid	IgM
+2	2	1-33	Non-Melioid	IgG
+2	1	34-96	Melioid	IgM
+2	2	34-96	Melioid	IgG
+3	1	1-96	Melioid	IgM
+3	2	1-96	Melioid	IgG
