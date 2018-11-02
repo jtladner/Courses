@@ -20,7 +20,9 @@ Columns of interest within this file include sample replicate name (sample) tran
 
 ### Expected Output
 
-Your aims are two-fold. First, read in the data from "khead\_table.csv" and "s\_table.csv", and generate a new tab-delimited output file containing a subset of the columns from these two input files, as well as a few new columns with summary statistics. Second, for the transcript with the biggest difference in abundance between conditions, generate a plot with abundance on the y-axis and that includes two boxplots, one for final table containing columns, meanEstCount, sigma, pval, qval, and Difference. Some columns will simply be replicated into a truncated easier to read file. Other columns will require calculation and data structuring.  
+Your aims are two-fold. First, read in the data from "khead\_table.csv" and "s\_table.csv", and generate a new tab-delimited output file containing a subset of the columns from these two input files, as well as a few new columns with summary statistics. Second, for the transcript with the lowest p-value in "s\_table.csv", generate a boxplot displaying normalized read counts for each sample contained within "khead\_table.csv" (i.e., one box per sample generated using all three replicates for each sample).
+
+, one for final table containing columns, meanEstCount, sigma, pval, qval, and Difference. Some columns will simply be replicated into a truncated easier to read file. Other columns will require calculation and data structuring.  
 
 2. Calculate mean(est_count) over triplicates from Khead_table for each transcript and add to Output.csv.
 
