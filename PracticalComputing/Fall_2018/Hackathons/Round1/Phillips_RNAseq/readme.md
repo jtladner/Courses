@@ -1,7 +1,7 @@
 # RNA-Seq Resistome profiling of Acinetobacter baumannii
 - For this project, you will:
-    - organize RNA data.
-    - discover transcipts responsible for antibiotic resistances in Acinetobacter baumannii. 
+    - parse and organize RNAseq data.
+    - generate a boxplot illustrating gene expression differences between sample types 
 
 ## Recomended modules 
 Matplotlib 
