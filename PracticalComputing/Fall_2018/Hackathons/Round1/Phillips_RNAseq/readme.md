@@ -11,9 +11,9 @@ Numpy
 ### Input Files
 1. "khead\_table.csv" is a comma-separated file containing expression information for each sample type (i.e. bacterial isolate + condition) and for each transcript in the genome. Note that each sample type was run in triplicate. The replicates can be identified because they all have the same name ("sample" column), with the exception of the final identifier following the "\_". So, for example, "ACS-TG22182subaTX-xx-uu-USA-xxxx-077-JB\_S7", "ACS-TG22182subaTX-xx-uu-USA-xxxx-077-JB\_S8", and "ACS-TG22182subaTX-xx-uu-USA-xxxx-077-JB\_S10" are three replicates of a single sample type. 
 
-transcript nomenclature(target\_id), sample names of the bioreplicates (sample), normalized read counts for each transcript (est\_count), tpm, eff\_len, len, strain profile information (resistance_profile), and treatment.
+Columns of interest within this file include sample replicate name (sample) transcript  name (target\_id), normalized read counts for each transcript (est\_count), drug resistance information (resistance_profile), and treatment type (treatment).
 
-2. "s\_table.csv" is a csv file containing the output of a statistical analysis comparing levels of transcript expression from different isolates/conditions. Columns of interest include: the name of the differentially expressed transcript (target_id), the p-value (pval) and the adjusted p-vaule (qval) . 
+2. "s\_table.csv" is a csv file containing the output of a statistical analysis comparing levels of transcript expression from the different isolates/conditions. Columns of interest include: the name of the differentially expressed transcript (target_id), the p-value (pval) and the adjusted p-vaule (qval). 
 
 3. There is also one "abundance.tsv" file for each bioreplicate organized within a set of directories starting with the 'indiv\_replicates' directory and including one subdirectory for each bioreplicate. These tab-delimited files contain the raw output from kallisto (an RNA-seq analysis algorithm). Info from these files were combined to form "khead\table.csv".
 
