@@ -20,21 +20,24 @@ Columns of interest within this file include sample replicate name (sample) tran
 
 ### Expected Output
 
-Your aims are two-fold. First, read in the data from "khead\_table.csv" and "s\_table.csv", and generate a new tab-delimited output file containing a subset of the columns from these two input files, as well as a few new columns with summary statistics. Second, for the transcript with the lowest p-value in "s\_table.csv", generate a boxplot displaying normalized read counts for each sample contained within "khead\_table.csv" (i.e., one box per sample generated using all three replicates for each sample).
+Your aims are two-fold: 
 
-, one for final table containing columns, meanEstCount, sigma, pval, qval, and Difference. Some columns will simply be replicated into a truncated easier to read file. Other columns will require calculation and data structuring.  
+1. Read in the data from "khead\_table.csv" and "s\_table.csv", and generate a new tab-delimited output file containing a subset of the columns from these two input files, as well as a few new columns with summary statistics. The output file should be called "Output.txt" and should include the following columns:
 
-2. Calculate mean(est_count) over triplicates from Khead_table for each transcript and add to Output.csv.
+    1. "target\_id" (from s\_table)
+    2. "pval" (from s\_table)
+    3. "qval" (from s\_table)
+    4. "sigma\_sq" (from s\_table)
+    5. Mean est\_count for each sample type (4 columns in total, calculated using all replicates from khead\_table)
+    6. Standard deviation in est\_count for each sample type (4 columns in total, calculated using all replicates from khead\_table)
 
-3. Calculate standard deviatation(est_count) over triplicates from khead_table for each transcript and add to Output.csv.
 
-4. Extract P-value and Q-value from s_table and add to Output.csv.
+2. For the transcript with the lowest p-value in "s\_table.csv", generate a boxplot displaying normalized read counts for each sample contained within "khead\_table.csv" (i.e., one box per sample generated using all three replicates for each sample).
 
-5. Write Output.csv
 
-6. Generate boxplot of . 
+### Extra credit
 
-	Alternatively, collect and calculate from raw data in form of abundance.tsv files (1 per bioreplicate).
+Add option to your script for est\_count data to be read in from the individual abundance.tsv files (1 per replicate), instead of from khead\_table.
 
 
 
