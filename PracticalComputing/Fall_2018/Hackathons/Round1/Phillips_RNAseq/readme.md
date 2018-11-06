@@ -9,7 +9,12 @@ Pandas
 Numpy
 
 ### Input Files
-1. "k\_table.csv" is a comma-separated file containing expression information for each sample type (i.e. bacterial isolate + condition) and for each transcript in the genome. Note that each sample type was run in triplicate. The replicates can be identified because they all have the same name ("sample" column), with the exception of the final identifier following the "\_". So, for example, "ACS-TG22182subaTX-xx-uu-USA-xxxx-077-JB\_S7", "ACS-TG22182subaTX-xx-uu-USA-xxxx-077-JB\_S8", and "ACS-TG22182subaTX-xx-uu-USA-xxxx-077-JB\_S10" are three replicates of a single sample type. 
+1. "k\_table.csv" is a comma-separated file containing expression information for each sample type (i.e. bacterial isolate + condition) and for each transcript in the genome. Note that each sample type was run in triplicate. The replicates can be identified because they all have the same name ("sample" column), with two exceptions: 
+
+    1.  Each replicate has a different final identifier following the "\_". 
+    2.  Each replicate has a different lowercase letter (a, b or c) just prior to the TX or TZ in the sample name.
+
+So, for example, "ACS-TG22182_a_TX-xx-uu-USA-xxxx-077-JB_\_S1_", "ACS-TG22182_b_TX-xx-uu-USA-xxxx-077-JB_\_S2_", "ACS-TG22182_c_TX-xx-uu-USA-xxxx-077-JB_\_S3_" are three replicates of a single sample type. 
 
 Columns of interest within this file include sample replicate name (sample) transcript  name (target\_id), normalized read counts for each transcript (est\_count), drug resistance information (resistance_profile), and treatment type (treatment).
 
