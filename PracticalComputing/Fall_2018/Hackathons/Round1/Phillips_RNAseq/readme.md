@@ -4,8 +4,10 @@
     - generate a boxplot illustrating gene expression differences between sample types 
 
 ## Recomended modules 
-Matplotlib 
+Matplotlib
+
 Pandas
+
 Numpy
 
 ### Input Files
