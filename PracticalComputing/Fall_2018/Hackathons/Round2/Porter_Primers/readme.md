@@ -1,4 +1,4 @@
-#Hackathon\_Project_Porter
+# Hackathon\_Project_Porter
 
 ### Background
 Degenerate primers are often used to increase the amount of diversity that a PCR assay can cover. These degeneracies produce “populations” of primers within an assay allowing specific subpopulations to amplify particular target groups. In this project, you will examine sequences of the pyrG gene from several Borrelia species to identify if our designed primers will theoretically amplify all Borrelia species. However, the designed script should work for any primer/target pairs and at any scale (i.e., for a single sequence and primer pair or thousands of sequences with hundreds of primers). 
