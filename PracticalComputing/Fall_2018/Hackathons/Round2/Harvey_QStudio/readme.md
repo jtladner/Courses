@@ -1,8 +1,9 @@
 # Quant Studio 12 Kapa Quant Quality Control Script
 
-### Overview:
-    - The objective of this script is to automate quality control processing for Kapa Quant assays.
-    - The script will accept arguments from the user regarding sample details, read raw text files from the instrument, and then calculate and display the results.
+### Overview
+
+- The objective of this script is to automate quality control processing for Kapa Quant assays.
+- The script will accept arguments from the user regarding sample details, read raw text files from the instrument, and then calculate and display the results.
 
 ### Script Input
 1. Input File: "MH 3-8\_QuantStudio_export.txt"
