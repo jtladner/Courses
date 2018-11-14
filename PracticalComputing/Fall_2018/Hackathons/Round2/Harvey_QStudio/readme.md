@@ -41,9 +41,11 @@
 Use the following calculations to generate values for the output table file. "Slope" and "Y intercept" come from the linear regression of the 6 standards.
 
 -Size-adjusted sample concentration in pM
+
  ```(Dilution Factor)*((10^((average sample Cq – Y intercept)/Slope))*(452/Average fragment length in bp))```
 
 -Size-adjusted sample concentrations in ug/uL
+
 ```(concentration in pM*10^-15)*(Average fragment length in bp*617.9)*10^6```
 
 ### Recomended modules 
